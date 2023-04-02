@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8C14426D2BB336166260A3E /* libPods-CameraDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA151F35793856F07090E1F /* libPods-CameraDemo.a */; };
+		E008A0D62294E8BA00A1064C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E008A0D52294E8BA00A1064C /* AppDelegate.m */; };
+		E008A0D92294E8BA00A1064C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E008A0D82294E8BA00A1064C /* ViewController.m */; };
+		E008A0DC2294E8BA00A1064C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E008A0DA2294E8BA00A1064C /* Main.storyboard */; };
+		E008A0DE2294E8BB00A1064C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E008A0DD2294E8BB00A1064C /* Assets.xcassets */; };
+		E008A0E12294E8BB00A1064C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E008A0DF2294E8BB00A1064C /* LaunchScreen.storyboard */; };
+		E008A0E42294E8BB00A1064C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E008A0E32294E8BB00A1064C /* main.m */; };
+		E008A1B72294E92100A1064C /* JPImageresizerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E008A1AC2294E92100A1064C /* JPImageresizerView.m */; };
+		E008A1B82294E92100A1064C /* UIImage+JPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E008A1AD2294E92100A1064C /* UIImage+JPExtension.m */; };
+		E008A1BA2294E92100A1064C /* JPImageresizerFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = E008A1AF2294E92100A1064C /* JPImageresizerFrameView.m */; };
+		E008A1BB2294E92100A1064C /* JPImageresizerConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = E008A1B22294E92100A1064C /* JPImageresizerConfigure.m */; };
+		E008A1C02294EEBD00A1064C /* CATailoringImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E008A1BF2294EEBD00A1064C /* CATailoringImageView.m */; };
+		E008A1C62296356A00A1064C /* CACorpGridLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E008A1C52296356A00A1064C /* CACorpGridLayer.m */; };
+		E008A1C92296358300A1064C /* CACorpCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E008A1C82296358300A1064C /* CACorpCornerView.m */; };
+		E008A1CC2296359300A1064C /* CACorpRatio.m in Sources */ = {isa = PBXBuildFile; fileRef = E008A1CB2296359300A1064C /* CACorpRatio.m */; };
+		E008A1CF229635F900A1064C /* CACropView.m in Sources */ = {isa = PBXBuildFile; fileRef = E008A1CE229635F900A1064C /* CACropView.m */; };
+		E008A1D222963AB700A1064C /* UIColor+SWCustomMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = E008A1D122963AB700A1064C /* UIColor+SWCustomMethod.m */; };
+		E008A1D522963B7400A1064C /* UIView+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E008A1D322963B7400A1064C /* UIView+HXExtension.m */; };
+		E008A1D822963C8F00A1064C /* CACropConfigureManger.m in Sources */ = {isa = PBXBuildFile; fileRef = E008A1D722963C8F00A1064C /* CACropConfigureManger.m */; };
+		E008A1DB22967CDE00A1064C /* CAShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E008A1DA22967CDE00A1064C /* CAShowViewController.m */; };
+		E008A1DF22978FB500A1064C /* CATailorView.m in Sources */ = {isa = PBXBuildFile; fileRef = E008A1DE22978FB500A1064C /* CATailorView.m */; };
+		E008A1E222978FCE00A1064C /* CATailorGridLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E008A1E122978FCE00A1064C /* CATailorGridLayer.m */; };
+		E008A1E522978FEE00A1064C /* CATailorCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E008A1E422978FEE00A1064C /* CATailorCornerView.m */; };
+		E008A1EB2297FE1300A1064C /* CATailorLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = E008A1EA2297FE1300A1064C /* CATailorLineView.m */; };
+		E008A213229BBDA600A1064C /* CAGPUImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E008A212229BBDA600A1064C /* CAGPUImageViewController.m */; };
+		E008A215229BBDBA00A1064C /* CAGPUImageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E008A214229BBDBA00A1064C /* CAGPUImageViewController.storyboard */; };
+		E0CB4EED22A502130049965F /* UIImage+CARotate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB4EEC22A502130049965F /* UIImage+CARotate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59CF4EF089930622EBA67B3F /* Pods-CameraDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraDemo.release.xcconfig"; path = "Target Support Files/Pods-CameraDemo/Pods-CameraDemo.release.xcconfig"; sourceTree = "<group>"; };
+		71510870EBB1D944FCA9482A /* Pods-CameraDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraDemo.debug.xcconfig"; path = "Target Support Files/Pods-CameraDemo/Pods-CameraDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E008A0D12294E8BA00A1064C /* CameraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E008A0D42294E8BA00A1064C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E008A0D52294E8BA00A1064C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E008A0D72294E8BA00A1064C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E008A0D82294E8BA00A1064C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E008A0DB2294E8BA00A1064C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E008A0DD2294E8BB00A1064C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E008A0E02294E8BB00A1064C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E008A0E22294E8BB00A1064C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E008A0E32294E8BB00A1064C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E008A1AB2294E92100A1064C /* JPImageresizerConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPImageresizerConfigure.h; sourceTree = "<group>"; };
+		E008A1AC2294E92100A1064C /* JPImageresizerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPImageresizerView.m; sourceTree = "<group>"; };
+		E008A1AD2294E92100A1064C /* UIImage+JPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JPExtension.m"; sourceTree = "<group>"; };
+		E008A1AF2294E92100A1064C /* JPImageresizerFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPImageresizerFrameView.m; sourceTree = "<group>"; };
+		E008A1B02294E92100A1064C /* JPImageresizerTypedef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPImageresizerTypedef.h; sourceTree = "<group>"; };
+		E008A1B12294E92100A1064C /* JPImageresizerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPImageresizerView.h; sourceTree = "<group>"; };
+		E008A1B22294E92100A1064C /* JPImageresizerConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPImageresizerConfigure.m; sourceTree = "<group>"; };
+		E008A1B32294E92100A1064C /* JPImageresizerFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPImageresizerFrameView.h; sourceTree = "<group>"; };
+		E008A1B42294E92100A1064C /* UIImage+JPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JPExtension.h"; sourceTree = "<group>"; };
+		E008A1BD2294E9F300A1064C /* JPImageresizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPImageresizer.h; sourceTree = "<group>"; };
+		E008A1BE2294EEBD00A1064C /* CATailoringImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATailoringImageView.h; sourceTree = "<group>"; };
+		E008A1BF2294EEBD00A1064C /* CATailoringImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATailoringImageView.m; sourceTree = "<group>"; };
+		E008A1C42296356A00A1064C /* CACorpGridLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CACorpGridLayer.h; sourceTree = "<group>"; };
+		E008A1C52296356A00A1064C /* CACorpGridLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CACorpGridLayer.m; sourceTree = "<group>"; };
+		E008A1C72296358300A1064C /* CACorpCornerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CACorpCornerView.h; sourceTree = "<group>"; };
+		E008A1C82296358300A1064C /* CACorpCornerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CACorpCornerView.m; sourceTree = "<group>"; };
+		E008A1CA2296359300A1064C /* CACorpRatio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CACorpRatio.h; sourceTree = "<group>"; };
+		E008A1CB2296359300A1064C /* CACorpRatio.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CACorpRatio.m; sourceTree = "<group>"; };
+		E008A1CD229635F900A1064C /* CACropView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CACropView.h; sourceTree = "<group>"; };
+		E008A1CE229635F900A1064C /* CACropView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CACropView.m; sourceTree = "<group>"; };
+		E008A1D022963AB700A1064C /* UIColor+SWCustomMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SWCustomMethod.h"; sourceTree = "<group>"; };
+		E008A1D122963AB700A1064C /* UIColor+SWCustomMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SWCustomMethod.m"; sourceTree = "<group>"; };
+		E008A1D322963B7400A1064C /* UIView+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HXExtension.m"; sourceTree = "<group>"; };
+		E008A1D422963B7400A1064C /* UIView+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HXExtension.h"; sourceTree = "<group>"; };
+		E008A1D622963C8F00A1064C /* CACropConfigureManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CACropConfigureManger.h; sourceTree = "<group>"; };
+		E008A1D722963C8F00A1064C /* CACropConfigureManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CACropConfigureManger.m; sourceTree = "<group>"; };
+		E008A1D922967CDD00A1064C /* CAShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAShowViewController.h; sourceTree = "<group>"; };
+		E008A1DA22967CDE00A1064C /* CAShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShowViewController.m; sourceTree = "<group>"; };
+		E008A1DD22978FB500A1064C /* CATailorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATailorView.h; sourceTree = "<group>"; };
+		E008A1DE22978FB500A1064C /* CATailorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATailorView.m; sourceTree = "<group>"; };
+		E008A1E022978FCE00A1064C /* CATailorGridLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATailorGridLayer.h; sourceTree = "<group>"; };
+		E008A1E122978FCE00A1064C /* CATailorGridLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATailorGridLayer.m; sourceTree = "<group>"; };
+		E008A1E322978FEE00A1064C /* CATailorCornerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATailorCornerView.h; sourceTree = "<group>"; };
+		E008A1E422978FEE00A1064C /* CATailorCornerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATailorCornerView.m; sourceTree = "<group>"; };
+		E008A1E92297FE1300A1064C /* CATailorLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATailorLineView.h; sourceTree = "<group>"; };
+		E008A1EA2297FE1300A1064C /* CATailorLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATailorLineView.m; sourceTree = "<group>"; };
+		E008A211229BBDA600A1064C /* CAGPUImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAGPUImageViewController.h; sourceTree = "<group>"; };
+		E008A212229BBDA600A1064C /* CAGPUImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAGPUImageViewController.m; sourceTree = "<group>"; };
+		E008A214229BBDBA00A1064C /* CAGPUImageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CAGPUImageViewController.storyboard; sourceTree = "<group>"; };
+		E0CB4EEB22A502130049965F /* UIImage+CARotate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CARotate.h"; sourceTree = "<group>"; };
+		E0CB4EEC22A502130049965F /* UIImage+CARotate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CARotate.m"; sourceTree = "<group>"; };
+		FFA151F35793856F07090E1F /* libPods-CameraDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CameraDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E008A0CE2294E8BA00A1064C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C14426D2BB336166260A3E /* libPods-CameraDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BB7B017898627E6356EA1B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFA151F35793856F07090E1F /* libPods-CameraDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E008A0C82294E8BA00A1064C = {
+			isa = PBXGroup;
+			children = (
+				E008A0D32294E8BA00A1064C /* CameraDemo */,
+				E008A0D22294E8BA00A1064C /* Products */,
+				EC8A4684820FEADF6CBD7CC6 /* Pods */,
+				4BB7B017898627E6356EA1B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E008A0D22294E8BA00A1064C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E008A0D12294E8BA00A1064C /* CameraDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E008A0D32294E8BA00A1064C /* CameraDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E008A210229BBD8B00A1064C /* GPUImage */,
+				E008A1DC22978EC400A1064C /* Crop */,
+				E008A1C32296351D00A1064C /* CropTest */,
+				E008A0EA2294E8C100A1064C /* Lib */,
+				E008A0D42294E8BA00A1064C /* AppDelegate.h */,
+				E008A0D52294E8BA00A1064C /* AppDelegate.m */,
+				E008A0D72294E8BA00A1064C /* ViewController.h */,
+				E008A0D82294E8BA00A1064C /* ViewController.m */,
+				E008A1D922967CDD00A1064C /* CAShowViewController.h */,
+				E008A1DA22967CDE00A1064C /* CAShowViewController.m */,
+				E008A1BE2294EEBD00A1064C /* CATailoringImageView.h */,
+				E008A1BF2294EEBD00A1064C /* CATailoringImageView.m */,
+				E008A0DA2294E8BA00A1064C /* Main.storyboard */,
+				E008A0DD2294E8BB00A1064C /* Assets.xcassets */,
+				E008A0DF2294E8BB00A1064C /* LaunchScreen.storyboard */,
+				E008A0E22294E8BB00A1064C /* Info.plist */,
+				E008A0E32294E8BB00A1064C /* main.m */,
+			);
+			path = CameraDemo;
+			sourceTree = "<group>";
+		};
+		E008A0EA2294E8C100A1064C /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				E008A1A92294E92100A1064C /* JPImageresizerView */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		E008A1A92294E92100A1064C /* JPImageresizerView */ = {
+			isa = PBXGroup;
+			children = (
+				E008A1AA2294E92100A1064C /* Classes */,
+			);
+			path = JPImageresizerView;
+			sourceTree = "<group>";
+		};
+		E008A1AA2294E92100A1064C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E008A1BD2294E9F300A1064C /* JPImageresizer.h */,
+				E008A1AB2294E92100A1064C /* JPImageresizerConfigure.h */,
+				E008A1B22294E92100A1064C /* JPImageresizerConfigure.m */,
+				E008A1B32294E92100A1064C /* JPImageresizerFrameView.h */,
+				E008A1AF2294E92100A1064C /* JPImageresizerFrameView.m */,
+				E008A1B02294E92100A1064C /* JPImageresizerTypedef.h */,
+				E008A1B12294E92100A1064C /* JPImageresizerView.h */,
+				E008A1AC2294E92100A1064C /* JPImageresizerView.m */,
+				E008A1B42294E92100A1064C /* UIImage+JPExtension.h */,
+				E008A1AD2294E92100A1064C /* UIImage+JPExtension.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E008A1C32296351D00A1064C /* CropTest */ = {
+			isa = PBXGroup;
+			children = (
+				E008A1D622963C8F00A1064C /* CACropConfigureManger.h */,
+				E008A1D722963C8F00A1064C /* CACropConfigureManger.m */,
+				E008A1CD229635F900A1064C /* CACropView.h */,
+				E008A1CE229635F900A1064C /* CACropView.m */,
+				E008A1C42296356A00A1064C /* CACorpGridLayer.h */,
+				E008A1C52296356A00A1064C /* CACorpGridLayer.m */,
+				E008A1C72296358300A1064C /* CACorpCornerView.h */,
+				E008A1C82296358300A1064C /* CACorpCornerView.m */,
+				E008A1CA2296359300A1064C /* CACorpRatio.h */,
+				E008A1CB2296359300A1064C /* CACorpRatio.m */,
+			);
+			path = CropTest;
+			sourceTree = "<group>";
+		};
+		E008A1DC22978EC400A1064C /* Crop */ = {
+			isa = PBXGroup;
+			children = (
+				E008A1DD22978FB500A1064C /* CATailorView.h */,
+				E008A1DE22978FB500A1064C /* CATailorView.m */,
+				E008A1E022978FCE00A1064C /* CATailorGridLayer.h */,
+				E008A1E122978FCE00A1064C /* CATailorGridLayer.m */,
+				E008A1E322978FEE00A1064C /* CATailorCornerView.h */,
+				E008A1E422978FEE00A1064C /* CATailorCornerView.m */,
+				E008A1E92297FE1300A1064C /* CATailorLineView.h */,
+				E008A1EA2297FE1300A1064C /* CATailorLineView.m */,
+				E008A1D022963AB700A1064C /* UIColor+SWCustomMethod.h */,
+				E008A1D122963AB700A1064C /* UIColor+SWCustomMethod.m */,
+				E008A1D422963B7400A1064C /* UIView+HXExtension.h */,
+				E008A1D322963B7400A1064C /* UIView+HXExtension.m */,
+				E0CB4EEB22A502130049965F /* UIImage+CARotate.h */,
+				E0CB4EEC22A502130049965F /* UIImage+CARotate.m */,
+			);
+			path = Crop;
+			sourceTree = "<group>";
+		};
+		E008A210229BBD8B00A1064C /* GPUImage */ = {
+			isa = PBXGroup;
+			children = (
+				E008A211229BBDA600A1064C /* CAGPUImageViewController.h */,
+				E008A212229BBDA600A1064C /* CAGPUImageViewController.m */,
+				E008A214229BBDBA00A1064C /* CAGPUImageViewController.storyboard */,
+			);
+			path = GPUImage;
+			sourceTree = "<group>";
+		};
+		EC8A4684820FEADF6CBD7CC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71510870EBB1D944FCA9482A /* Pods-CameraDemo.debug.xcconfig */,
+				59CF4EF089930622EBA67B3F /* Pods-CameraDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E008A0D02294E8BA00A1064C /* CameraDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E008A0E72294E8BB00A1064C /* Build configuration list for PBXNativeTarget "CameraDemo" */;
+			buildPhases = (
+				239D56C3C246489708258B7A /* [CP] Check Pods Manifest.lock */,
+				E008A0CD2294E8BA00A1064C /* Sources */,
+				E008A0CE2294E8BA00A1064C /* Frameworks */,
+				E008A0CF2294E8BA00A1064C /* Resources */,
+				4EA3FA93171E69CE35CFA794 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CameraDemo;
+			productName = CameraDemo;
+			productReference = E008A0D12294E8BA00A1064C /* CameraDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E008A0C92294E8BA00A1064C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CA;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "郭鹏";
+				TargetAttributes = {
+					E008A0D02294E8BA00A1064C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E008A0CC2294E8BA00A1064C /* Build configuration list for PBXProject "CameraDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E008A0C82294E8BA00A1064C;
+			productRefGroup = E008A0D22294E8BA00A1064C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E008A0D02294E8BA00A1064C /* CameraDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E008A0CF2294E8BA00A1064C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E008A215229BBDBA00A1064C /* CAGPUImageViewController.storyboard in Resources */,
+				E008A0E12294E8BB00A1064C /* LaunchScreen.storyboard in Resources */,
+				E008A0DE2294E8BB00A1064C /* Assets.xcassets in Resources */,
+				E008A0DC2294E8BA00A1064C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		239D56C3C246489708258B7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CameraDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EA3FA93171E69CE35CFA794 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CameraDemo/Pods-CameraDemo-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CameraDemo/Pods-CameraDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E008A0CD2294E8BA00A1064C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E008A1D822963C8F00A1064C /* CACropConfigureManger.m in Sources */,
+				E008A0D92294E8BA00A1064C /* ViewController.m in Sources */,
+				E0CB4EED22A502130049965F /* UIImage+CARotate.m in Sources */,
+				E008A1E222978FCE00A1064C /* CATailorGridLayer.m in Sources */,
+				E008A213229BBDA600A1064C /* CAGPUImageViewController.m in Sources */,
+				E008A1BB2294E92100A1064C /* JPImageresizerConfigure.m in Sources */,
+				E008A1DF22978FB500A1064C /* CATailorView.m in Sources */,
+				E008A1CF229635F900A1064C /* CACropView.m in Sources */,
+				E008A1C62296356A00A1064C /* CACorpGridLayer.m in Sources */,
+				E008A1DB22967CDE00A1064C /* CAShowViewController.m in Sources */,
+				E008A1C92296358300A1064C /* CACorpCornerView.m in Sources */,
+				E008A1CC2296359300A1064C /* CACorpRatio.m in Sources */,
+				E008A1D522963B7400A1064C /* UIView+HXExtension.m in Sources */,
+				E008A1BA2294E92100A1064C /* JPImageresizerFrameView.m in Sources */,
+				E008A1E522978FEE00A1064C /* CATailorCornerView.m in Sources */,
+				E008A0E42294E8BB00A1064C /* main.m in Sources */,
+				E008A1C02294EEBD00A1064C /* CATailoringImageView.m in Sources */,
+				E008A0D62294E8BA00A1064C /* AppDelegate.m in Sources */,
+				E008A1D222963AB700A1064C /* UIColor+SWCustomMethod.m in Sources */,
+				E008A1B72294E92100A1064C /* JPImageresizerView.m in Sources */,
+				E008A1B82294E92100A1064C /* UIImage+JPExtension.m in Sources */,
+				E008A1EB2297FE1300A1064C /* CATailorLineView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E008A0DA2294E8BA00A1064C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E008A0DB2294E8BA00A1064C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E008A0DF2294E8BB00A1064C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E008A0E02294E8BB00A1064C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E008A0E52294E8BB00A1064C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E008A0E62294E8BB00A1064C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E008A0E82294E8BB00A1064C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71510870EBB1D944FCA9482A /* Pods-CameraDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CameraDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TA.CameraDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E008A0E92294E8BB00A1064C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59CF4EF089930622EBA67B3F /* Pods-CameraDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CameraDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TA.CameraDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E008A0CC2294E8BA00A1064C /* Build configuration list for PBXProject "CameraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E008A0E52294E8BB00A1064C /* Debug */,
+				E008A0E62294E8BB00A1064C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E008A0E72294E8BB00A1064C /* Build configuration list for PBXNativeTarget "CameraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E008A0E82294E8BB00A1064C /* Debug */,
+				E008A0E92294E8BB00A1064C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E008A0C92294E8BA00A1064C /* Project object */;
+}

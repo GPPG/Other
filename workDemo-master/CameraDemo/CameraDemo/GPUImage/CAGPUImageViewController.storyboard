@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="p1P-vL-ZtM">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Image View Controller-->
+        <scene sceneID="idQ-ua-m8K">
+            <objects>
+                <viewController id="p1P-vL-ZtM" customClass="CAGPUImageViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UAf-FU-UZK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="YBB-nf-21b">
+                                <rect key="frame" x="15" y="802" width="384" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zHB-Zc-dfp">
+                                        <rect key="frame" x="0.0" y="0.0" width="47" height="30"/>
+                                        <state key="normal" title="曝光"/>
+                                        <connections>
+                                            <action selector="exposureAction:" destination="p1P-vL-ZtM" eventType="touchUpInside" id="2Ce-G3-ujd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzd-FL-r1B">
+                                        <rect key="frame" x="56" y="0.0" width="47.5" height="30"/>
+                                        <state key="normal" title="对比"/>
+                                        <connections>
+                                            <action selector="contrastAction:" destination="p1P-vL-ZtM" eventType="touchUpInside" id="cvy-NF-Pgz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N19-wZ-Kzv">
+                                        <rect key="frame" x="112.5" y="0.0" width="47" height="30"/>
+                                        <state key="normal" title="饱和度"/>
+                                        <connections>
+                                            <action selector="saturationAction:" destination="p1P-vL-ZtM" eventType="touchUpInside" id="2eJ-dp-Gsa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K1f-gq-OEa">
+                                        <rect key="frame" x="168.5" y="0.0" width="47" height="30"/>
+                                        <state key="normal" title="锐化"/>
+                                        <connections>
+                                            <action selector="sharpenAction:" destination="p1P-vL-ZtM" eventType="touchUpInside" id="4pj-PU-2Ik"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rz7-M7-5ng">
+                                        <rect key="frame" x="224.5" y="0.0" width="47" height="30"/>
+                                        <state key="normal" title="色调"/>
+                                        <connections>
+                                            <action selector="toneAction:" destination="p1P-vL-ZtM" eventType="touchUpInside" id="Y7h-st-Kmx"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tVB-6d-Fki">
+                                        <rect key="frame" x="280.5" y="0.0" width="47.5" height="30"/>
+                                        <state key="normal" title="亮度"/>
+                                        <connections>
+                                            <action selector="highlightsAction:" destination="p1P-vL-ZtM" eventType="touchUpInside" id="HxU-xj-Brw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4RC-GT-51T">
+                                        <rect key="frame" x="337" y="0.0" width="47" height="30"/>
+                                        <state key="normal" title="阴影"/>
+                                        <connections>
+                                            <action selector="shadowsAction:" destination="p1P-vL-ZtM" eventType="touchUpInside" id="1tJ-1v-rZw"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="4RC-GT-51T" firstAttribute="width" secondItem="zHB-Zc-dfp" secondAttribute="width" id="870-nv-Cse"/>
+                                    <constraint firstItem="dzd-FL-r1B" firstAttribute="width" secondItem="zHB-Zc-dfp" secondAttribute="width" id="Fv3-J7-vlb"/>
+                                    <constraint firstItem="tVB-6d-Fki" firstAttribute="width" secondItem="zHB-Zc-dfp" secondAttribute="width" id="Lep-Os-Dol"/>
+                                    <constraint firstItem="Rz7-M7-5ng" firstAttribute="width" secondItem="zHB-Zc-dfp" secondAttribute="width" id="SeH-TR-DWA"/>
+                                    <constraint firstItem="K1f-gq-OEa" firstAttribute="width" secondItem="zHB-Zc-dfp" secondAttribute="width" id="XB9-Dd-7PJ"/>
+                                    <constraint firstItem="N19-wZ-Kzv" firstAttribute="width" secondItem="zHB-Zc-dfp" secondAttribute="width" id="pXP-Or-kfd"/>
+                                </constraints>
+                            </stackView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Kbw-V2-LKo">
+                                <rect key="frame" x="-2" y="742" width="418" height="31"/>
+                                <connections>
+                                    <action selector="sliderAction:" destination="p1P-vL-ZtM" eventType="valueChanged" id="rY5-bz-g2R"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="YBB-nf-21b" firstAttribute="leading" secondItem="8wT-1r-MbL" secondAttribute="leading" constant="15" id="1nP-Dy-7Vk"/>
+                            <constraint firstItem="Kbw-V2-LKo" firstAttribute="leading" secondItem="8wT-1r-MbL" secondAttribute="leading" id="8Vn-cV-rB0"/>
+                            <constraint firstItem="YBB-nf-21b" firstAttribute="top" secondItem="Kbw-V2-LKo" secondAttribute="bottom" constant="30" id="IRf-pg-OJL"/>
+                            <constraint firstItem="8wT-1r-MbL" firstAttribute="bottom" secondItem="YBB-nf-21b" secondAttribute="bottom" constant="30" id="Tf1-FZ-qHN"/>
+                            <constraint firstItem="8wT-1r-MbL" firstAttribute="trailing" secondItem="YBB-nf-21b" secondAttribute="trailing" constant="15" id="Xwd-12-NJp"/>
+                            <constraint firstItem="8wT-1r-MbL" firstAttribute="trailing" secondItem="Kbw-V2-LKo" secondAttribute="trailing" id="wVU-Jo-VkS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8wT-1r-MbL"/>
+                    </view>
+                    <connections>
+                        <outlet property="slider" destination="Kbw-V2-LKo" id="Pji-PO-uMb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2KP-Io-Bpb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

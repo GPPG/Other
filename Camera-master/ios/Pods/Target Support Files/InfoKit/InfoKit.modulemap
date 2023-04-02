@@ -1,0 +1,6 @@
+framework module InfoKit {
+  umbrella header "InfoKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

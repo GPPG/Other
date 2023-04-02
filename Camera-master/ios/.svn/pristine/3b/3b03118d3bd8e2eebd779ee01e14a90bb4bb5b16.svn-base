@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (4.8.2)
+  - InfoKit (0.0.2)
+  - Moya (12.0.1):
+    - Moya/Core (= 12.0.1)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - Result (4.1.0)
+  - SnapKit (5.0.0)
+
+DEPENDENCIES:
+  - InfoKit
+  - Moya (~> 12.0)
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - InfoKit
+    - Moya
+    - Result
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  InfoKit: 9f9137bae7d1af1f120c4f67571ad0cf585a5911
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+
+PODFILE CHECKSUM: 0f1b6fc18513400a1977c601fd014b4a30e9bf1e
+
+COCOAPODS: 1.6.0.beta.2

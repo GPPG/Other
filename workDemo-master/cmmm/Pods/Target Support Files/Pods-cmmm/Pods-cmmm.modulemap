@@ -1,0 +1,6 @@
+framework module Pods_cmmm {
+  umbrella header "Pods-cmmm-umbrella.h"
+
+  export *
+  module * { export * }
+}

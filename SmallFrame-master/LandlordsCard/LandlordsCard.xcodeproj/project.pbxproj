@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		952624D9870366DD2DA54589 /* Pods_LandlordsCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71045452257D12E5C8B0D455 /* Pods_LandlordsCard.framework */; };
+		E0BB234C23B20D6F00A6980E /* GPDrawCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB234B23B20D6F00A6980E /* GPDrawCardViewController.m */; };
+		E0BB235523B2FEE400A6980E /* TADarwCardCollectionViewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB235323B2FEE400A6980E /* TADarwCardCollectionViewLayoutAttributes.m */; };
+		E0BB235623B2FEE400A6980E /* TADrawCardLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB235423B2FEE400A6980E /* TADrawCardLayout.m */; };
+		E0BB235D23B3019000A6980E /* TATarReadingDrawContentMode.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB235823B3019000A6980E /* TATarReadingDrawContentMode.m */; };
+		E0BB235E23B3019000A6980E /* TATarotReadinDrawModeManger.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB235A23B3019000A6980E /* TATarotReadinDrawModeManger.m */; };
+		E0BB235F23B3019000A6980E /* TATarotReadingDrawMode.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB235B23B3019000A6980E /* TATarotReadingDrawMode.m */; };
+		E0BB236223B3043900A6980E /* TADrawLocationMode.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB236023B3043900A6980E /* TADrawLocationMode.m */; };
+		E0BB236523B3078100A6980E /* TATarotReadingShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB236423B3078000A6980E /* TATarotReadingShowView.m */; };
+		E0BB236823B3078D00A6980E /* TATarotReadingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB236623B3078C00A6980E /* TATarotReadingCardView.m */; };
+		E0BB238023B307A600A6980E /* TADrawCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB236A23B307A600A6980E /* TADrawCardView.m */; };
+		E0BB238123B307A600A6980E /* TADrawCardCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB236C23B307A600A6980E /* TADrawCardCollectionView.m */; };
+		E0BB238223B307A600A6980E /* TATarotView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB236F23B307A600A6980E /* TATarotView.m */; };
+		E0BB238323B307A600A6980E /* TAShuffleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB237123B307A600A6980E /* TAShuffleView.m */; };
+		E0BB238623B307A600A6980E /* TACardRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB237723B307A600A6980E /* TACardRippleView.m */; };
+		E0BB238823B307A600A6980E /* TADarwCardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB237D23B307A600A6980E /* TADarwCardCollectionViewCell.m */; };
+		E0BB238923B307A600A6980E /* TADrawCardArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB237F23B307A600A6980E /* TADrawCardArrowView.m */; };
+		E0BB238D23B30A6700A6980E /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB238C23B30A6700A6980E /* UIView+LayoutMethods.m */; };
+		E0BB239023B30B3200A6980E /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB238F23B30B3200A6980E /* UIColor+Hex.m */; };
+		E0BB239323B32D5200A6980E /* HImageUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB239123B32D5200A6980E /* HImageUtility.m */; };
+		E0BB239923B32DB100A6980E /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB239623B32DB100A6980E /* UIView+Animation.m */; };
+		E0BB239A23B32DB100A6980E /* Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB239723B32DB100A6980E /* Animation.m */; };
+		E0BB239E23B32FC100A6980E /* UIView+AnimationExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB239D23B32FC100A6980E /* UIView+AnimationExtension.m */; };
+		E0BB23A123B3303300A6980E /* UIImage+Clip.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB23A023B3303300A6980E /* UIImage+Clip.m */; };
+		E0BB23A523B3305C00A6980E /* NSString+StringSize.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB23A323B3305C00A6980E /* NSString+StringSize.m */; };
+		E0F92B3023B1EB1600295EE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B2F23B1EB1600295EE5 /* AppDelegate.m */; };
+		E0F92B3323B1EB1600295EE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B3223B1EB1600295EE5 /* ViewController.m */; };
+		E0F92B3623B1EB1600295EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F92B3423B1EB1600295EE5 /* Main.storyboard */; };
+		E0F92B3823B1EB1700295EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0F92B3723B1EB1700295EE5 /* Assets.xcassets */; };
+		E0F92B3B23B1EB1700295EE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F92B3923B1EB1700295EE5 /* LaunchScreen.storyboard */; };
+		E0F92B3E23B1EB1700295EE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B3D23B1EB1700295EE5 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71045452257D12E5C8B0D455 /* Pods_LandlordsCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LandlordsCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0BB234923B20CDE00A6980E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E0BB234A23B20D6F00A6980E /* GPDrawCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPDrawCardViewController.h; sourceTree = "<group>"; };
+		E0BB234B23B20D6F00A6980E /* GPDrawCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPDrawCardViewController.m; sourceTree = "<group>"; };
+		E0BB234F23B2FD8B00A6980E /* TATarotReading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATarotReading.h; sourceTree = "<group>"; };
+		E0BB235123B2FEE400A6980E /* TADrawCardLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADrawCardLayout.h; sourceTree = "<group>"; };
+		E0BB235223B2FEE400A6980E /* TADarwCardCollectionViewLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADarwCardCollectionViewLayoutAttributes.h; sourceTree = "<group>"; };
+		E0BB235323B2FEE400A6980E /* TADarwCardCollectionViewLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADarwCardCollectionViewLayoutAttributes.m; sourceTree = "<group>"; };
+		E0BB235423B2FEE400A6980E /* TADrawCardLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADrawCardLayout.m; sourceTree = "<group>"; };
+		E0BB235723B3018F00A6980E /* TATarReadingDrawContentMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATarReadingDrawContentMode.h; sourceTree = "<group>"; };
+		E0BB235823B3019000A6980E /* TATarReadingDrawContentMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATarReadingDrawContentMode.m; sourceTree = "<group>"; };
+		E0BB235923B3019000A6980E /* TATarotReadinDrawModeManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATarotReadinDrawModeManger.h; sourceTree = "<group>"; };
+		E0BB235A23B3019000A6980E /* TATarotReadinDrawModeManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATarotReadinDrawModeManger.m; sourceTree = "<group>"; };
+		E0BB235B23B3019000A6980E /* TATarotReadingDrawMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATarotReadingDrawMode.m; sourceTree = "<group>"; };
+		E0BB235C23B3019000A6980E /* TATarotReadingDrawMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATarotReadingDrawMode.h; sourceTree = "<group>"; };
+		E0BB236023B3043900A6980E /* TADrawLocationMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADrawLocationMode.m; sourceTree = "<group>"; };
+		E0BB236123B3043900A6980E /* TADrawLocationMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADrawLocationMode.h; sourceTree = "<group>"; };
+		E0BB236323B3078000A6980E /* TATarotReadingShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATarotReadingShowView.h; sourceTree = "<group>"; };
+		E0BB236423B3078000A6980E /* TATarotReadingShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATarotReadingShowView.m; sourceTree = "<group>"; };
+		E0BB236623B3078C00A6980E /* TATarotReadingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATarotReadingCardView.m; sourceTree = "<group>"; };
+		E0BB236723B3078D00A6980E /* TATarotReadingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATarotReadingCardView.h; sourceTree = "<group>"; };
+		E0BB236A23B307A600A6980E /* TADrawCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADrawCardView.m; sourceTree = "<group>"; };
+		E0BB236B23B307A600A6980E /* TADarwCardCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADarwCardCollectionViewCell.h; sourceTree = "<group>"; };
+		E0BB236C23B307A600A6980E /* TADrawCardCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADrawCardCollectionView.m; sourceTree = "<group>"; };
+		E0BB236D23B307A600A6980E /* TADrawCardArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADrawCardArrowView.h; sourceTree = "<group>"; };
+		E0BB236F23B307A600A6980E /* TATarotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATarotView.m; sourceTree = "<group>"; };
+		E0BB237023B307A600A6980E /* TAShuffleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAShuffleView.h; sourceTree = "<group>"; };
+		E0BB237123B307A600A6980E /* TAShuffleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAShuffleView.m; sourceTree = "<group>"; };
+		E0BB237223B307A600A6980E /* TATarotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATarotView.h; sourceTree = "<group>"; };
+		E0BB237723B307A600A6980E /* TACardRippleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACardRippleView.m; sourceTree = "<group>"; };
+		E0BB237A23B307A600A6980E /* TACardRippleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACardRippleView.h; sourceTree = "<group>"; };
+		E0BB237C23B307A600A6980E /* TADrawCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADrawCardView.h; sourceTree = "<group>"; };
+		E0BB237D23B307A600A6980E /* TADarwCardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADarwCardCollectionViewCell.m; sourceTree = "<group>"; };
+		E0BB237E23B307A600A6980E /* TADrawCardCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADrawCardCollectionView.h; sourceTree = "<group>"; };
+		E0BB237F23B307A600A6980E /* TADrawCardArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADrawCardArrowView.m; sourceTree = "<group>"; };
+		E0BB238B23B30A6700A6980E /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
+		E0BB238C23B30A6700A6980E /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
+		E0BB238E23B30B3100A6980E /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		E0BB238F23B30B3200A6980E /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		E0BB239123B32D5200A6980E /* HImageUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HImageUtility.m; sourceTree = "<group>"; };
+		E0BB239223B32D5200A6980E /* HImageUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HImageUtility.h; sourceTree = "<group>"; };
+		E0BB239523B32DB100A6980E /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
+		E0BB239623B32DB100A6980E /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		E0BB239723B32DB100A6980E /* Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation.m; sourceTree = "<group>"; };
+		E0BB239823B32DB100A6980E /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		E0BB239B23B32E8000A6980E /* TatodayBaseConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TatodayBaseConfiguration.h; sourceTree = "<group>"; };
+		E0BB239C23B32FC100A6980E /* UIView+AnimationExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AnimationExtension.h"; sourceTree = "<group>"; };
+		E0BB239D23B32FC100A6980E /* UIView+AnimationExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimationExtension.m"; sourceTree = "<group>"; };
+		E0BB239F23B3303200A6980E /* UIImage+Clip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Clip.h"; sourceTree = "<group>"; };
+		E0BB23A023B3303300A6980E /* UIImage+Clip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Clip.m"; sourceTree = "<group>"; };
+		E0BB23A223B3304D00A6980E /* ColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorUtils.h; sourceTree = "<group>"; };
+		E0BB23A323B3305C00A6980E /* NSString+StringSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringSize.m"; sourceTree = "<group>"; };
+		E0BB23A423B3305C00A6980E /* NSString+StringSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringSize.h"; sourceTree = "<group>"; };
+		E0F92B2B23B1EB1600295EE5 /* 卡牌.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "卡牌.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F92B2E23B1EB1600295EE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0F92B2F23B1EB1600295EE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0F92B3123B1EB1600295EE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E0F92B3223B1EB1600295EE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0F92B3523B1EB1600295EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0F92B3723B1EB1700295EE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0F92B3A23B1EB1700295EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0F92B3C23B1EB1700295EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F92B3D23B1EB1700295EE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDD6D2B733419CE81B42D668 /* Pods-LandlordsCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandlordsCard.release.xcconfig"; path = "Target Support Files/Pods-LandlordsCard/Pods-LandlordsCard.release.xcconfig"; sourceTree = "<group>"; };
+		FF4CEE4E3D4FF3E961A6C535 /* Pods-LandlordsCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandlordsCard.debug.xcconfig"; path = "Target Support Files/Pods-LandlordsCard/Pods-LandlordsCard.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0F92B2823B1EB1600295EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952624D9870366DD2DA54589 /* Pods_LandlordsCard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B046D8B4ACCE1445A29B3C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF4CEE4E3D4FF3E961A6C535 /* Pods-LandlordsCard.debug.xcconfig */,
+				EDD6D2B733419CE81B42D668 /* Pods-LandlordsCard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8CDEB0E36EF89E973875AA75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71045452257D12E5C8B0D455 /* Pods_LandlordsCard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0BB234523B20BFC00A6980E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB236E23B307A600A6980E /* ShuffleAnimationView */,
+				E0BB236923B307A600A6980E /* DrawCardView */,
+				E0BB236723B3078D00A6980E /* TATarotReadingCardView.h */,
+				E0BB236623B3078C00A6980E /* TATarotReadingCardView.m */,
+				E0BB236323B3078000A6980E /* TATarotReadingShowView.h */,
+				E0BB236423B3078000A6980E /* TATarotReadingShowView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0BB234623B20C0500A6980E /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB236123B3043900A6980E /* TADrawLocationMode.h */,
+				E0BB236023B3043900A6980E /* TADrawLocationMode.m */,
+				E0BB235C23B3019000A6980E /* TATarotReadingDrawMode.h */,
+				E0BB235B23B3019000A6980E /* TATarotReadingDrawMode.m */,
+				E0BB235723B3018F00A6980E /* TATarReadingDrawContentMode.h */,
+				E0BB235823B3019000A6980E /* TATarReadingDrawContentMode.m */,
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		E0BB234723B20C0A00A6980E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB234A23B20D6F00A6980E /* GPDrawCardViewController.h */,
+				E0BB234B23B20D6F00A6980E /* GPDrawCardViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0BB234823B20C1300A6980E /* Manger */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB235923B3019000A6980E /* TATarotReadinDrawModeManger.h */,
+				E0BB235A23B3019000A6980E /* TATarotReadinDrawModeManger.m */,
+			);
+			path = Manger;
+			sourceTree = "<group>";
+		};
+		E0BB234E23B2FD8100A6980E /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB239B23B32E8000A6980E /* TatodayBaseConfiguration.h */,
+				E0BB234F23B2FD8B00A6980E /* TATarotReading.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		E0BB235023B2FEE400A6980E /* DarwCardLayout */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB235223B2FEE400A6980E /* TADarwCardCollectionViewLayoutAttributes.h */,
+				E0BB235323B2FEE400A6980E /* TADarwCardCollectionViewLayoutAttributes.m */,
+				E0BB235123B2FEE400A6980E /* TADrawCardLayout.h */,
+				E0BB235423B2FEE400A6980E /* TADrawCardLayout.m */,
+			);
+			path = DarwCardLayout;
+			sourceTree = "<group>";
+		};
+		E0BB236923B307A600A6980E /* DrawCardView */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB237A23B307A600A6980E /* TACardRippleView.h */,
+				E0BB237723B307A600A6980E /* TACardRippleView.m */,
+				E0BB236B23B307A600A6980E /* TADarwCardCollectionViewCell.h */,
+				E0BB237D23B307A600A6980E /* TADarwCardCollectionViewCell.m */,
+				E0BB236D23B307A600A6980E /* TADrawCardArrowView.h */,
+				E0BB237F23B307A600A6980E /* TADrawCardArrowView.m */,
+				E0BB237E23B307A600A6980E /* TADrawCardCollectionView.h */,
+				E0BB236C23B307A600A6980E /* TADrawCardCollectionView.m */,
+				E0BB237C23B307A600A6980E /* TADrawCardView.h */,
+				E0BB236A23B307A600A6980E /* TADrawCardView.m */,
+			);
+			path = DrawCardView;
+			sourceTree = "<group>";
+		};
+		E0BB236E23B307A600A6980E /* ShuffleAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB237023B307A600A6980E /* TAShuffleView.h */,
+				E0BB237123B307A600A6980E /* TAShuffleView.m */,
+				E0BB237223B307A600A6980E /* TATarotView.h */,
+				E0BB236F23B307A600A6980E /* TATarotView.m */,
+			);
+			path = ShuffleAnimationView;
+			sourceTree = "<group>";
+		};
+		E0BB238A23B30A4F00A6980E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB239423B32DB100A6980E /* animation */,
+				E0BB23A223B3304D00A6980E /* ColorUtils.h */,
+				E0BB239223B32D5200A6980E /* HImageUtility.h */,
+				E0BB239123B32D5200A6980E /* HImageUtility.m */,
+				E0BB23A423B3305C00A6980E /* NSString+StringSize.h */,
+				E0BB23A323B3305C00A6980E /* NSString+StringSize.m */,
+				E0BB238E23B30B3100A6980E /* UIColor+Hex.h */,
+				E0BB238F23B30B3200A6980E /* UIColor+Hex.m */,
+				E0BB239F23B3303200A6980E /* UIImage+Clip.h */,
+				E0BB23A023B3303300A6980E /* UIImage+Clip.m */,
+				E0BB238B23B30A6700A6980E /* UIView+LayoutMethods.h */,
+				E0BB238C23B30A6700A6980E /* UIView+LayoutMethods.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E0BB239423B32DB100A6980E /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB239523B32DB100A6980E /* Animation.h */,
+				E0BB239723B32DB100A6980E /* Animation.m */,
+				E0BB239823B32DB100A6980E /* UIView+Animation.h */,
+				E0BB239623B32DB100A6980E /* UIView+Animation.m */,
+				E0BB239C23B32FC100A6980E /* UIView+AnimationExtension.h */,
+				E0BB239D23B32FC100A6980E /* UIView+AnimationExtension.m */,
+			);
+			path = animation;
+			sourceTree = "<group>";
+		};
+		E0F92B2223B1EB1600295EE5 = {
+			isa = PBXGroup;
+			children = (
+				E0F92B2D23B1EB1600295EE5 /* LandlordsCard */,
+				E0F92B2C23B1EB1600295EE5 /* Products */,
+				3B046D8B4ACCE1445A29B3C2 /* Pods */,
+				8CDEB0E36EF89E973875AA75 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E0F92B2C23B1EB1600295EE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0F92B2B23B1EB1600295EE5 /* 卡牌.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0F92B2D23B1EB1600295EE5 /* LandlordsCard */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB235023B2FEE400A6980E /* DarwCardLayout */,
+				E0BB234E23B2FD8100A6980E /* Tool */,
+				E0BB234823B20C1300A6980E /* Manger */,
+				E0BB234723B20C0A00A6980E /* Controller */,
+				E0BB234623B20C0500A6980E /* Mode */,
+				E0BB234523B20BFC00A6980E /* View */,
+				E0BB238A23B30A4F00A6980E /* Category */,
+				E0F92B2E23B1EB1600295EE5 /* AppDelegate.h */,
+				E0F92B2F23B1EB1600295EE5 /* AppDelegate.m */,
+				E0F92B3123B1EB1600295EE5 /* ViewController.h */,
+				E0F92B3223B1EB1600295EE5 /* ViewController.m */,
+				E0F92B3423B1EB1600295EE5 /* Main.storyboard */,
+				E0F92B3723B1EB1700295EE5 /* Assets.xcassets */,
+				E0F92B3923B1EB1700295EE5 /* LaunchScreen.storyboard */,
+				E0F92B3C23B1EB1700295EE5 /* Info.plist */,
+				E0F92B3D23B1EB1700295EE5 /* main.m */,
+				E0BB234923B20CDE00A6980E /* PrefixHeader.pch */,
+			);
+			path = LandlordsCard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0F92B2A23B1EB1600295EE5 /* LandlordsCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0F92B4123B1EB1700295EE5 /* Build configuration list for PBXNativeTarget "LandlordsCard" */;
+			buildPhases = (
+				6F7DA4347C7E0B2F38EEEC12 /* [CP] Check Pods Manifest.lock */,
+				E0F92B2723B1EB1600295EE5 /* Sources */,
+				E0F92B2823B1EB1600295EE5 /* Frameworks */,
+				E0F92B2923B1EB1600295EE5 /* Resources */,
+				7784A694A46748CC49C2A332 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LandlordsCard;
+			productName = LandlordsCard;
+			productReference = E0F92B2B23B1EB1600295EE5 /* 卡牌.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0F92B2323B1EB1600295EE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GP;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "郭鹏";
+				TargetAttributes = {
+					E0F92B2A23B1EB1600295EE5 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = E0F92B2623B1EB1600295EE5 /* Build configuration list for PBXProject "LandlordsCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0F92B2223B1EB1600295EE5;
+			productRefGroup = E0F92B2C23B1EB1600295EE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0F92B2A23B1EB1600295EE5 /* LandlordsCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0F92B2923B1EB1600295EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F92B3B23B1EB1700295EE5 /* LaunchScreen.storyboard in Resources */,
+				E0F92B3823B1EB1700295EE5 /* Assets.xcassets in Resources */,
+				E0F92B3623B1EB1600295EE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F7DA4347C7E0B2F38EEEC12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LandlordsCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7784A694A46748CC49C2A332 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LandlordsCard/Pods-LandlordsCard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LandlordsCard/Pods-LandlordsCard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LandlordsCard/Pods-LandlordsCard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0F92B2723B1EB1600295EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BB236223B3043900A6980E /* TADrawLocationMode.m in Sources */,
+				E0BB238823B307A600A6980E /* TADarwCardCollectionViewCell.m in Sources */,
+				E0F92B3323B1EB1600295EE5 /* ViewController.m in Sources */,
+				E0BB235D23B3019000A6980E /* TATarReadingDrawContentMode.m in Sources */,
+				E0F92B3E23B1EB1700295EE5 /* main.m in Sources */,
+				E0BB235623B2FEE400A6980E /* TADrawCardLayout.m in Sources */,
+				E0BB238223B307A600A6980E /* TATarotView.m in Sources */,
+				E0BB238123B307A600A6980E /* TADrawCardCollectionView.m in Sources */,
+				E0BB238323B307A600A6980E /* TAShuffleView.m in Sources */,
+				E0BB239A23B32DB100A6980E /* Animation.m in Sources */,
+				E0BB239923B32DB100A6980E /* UIView+Animation.m in Sources */,
+				E0BB239323B32D5200A6980E /* HImageUtility.m in Sources */,
+				E0BB236523B3078100A6980E /* TATarotReadingShowView.m in Sources */,
+				E0F92B3023B1EB1600295EE5 /* AppDelegate.m in Sources */,
+				E0BB23A523B3305C00A6980E /* NSString+StringSize.m in Sources */,
+				E0BB239023B30B3200A6980E /* UIColor+Hex.m in Sources */,
+				E0BB235F23B3019000A6980E /* TATarotReadingDrawMode.m in Sources */,
+				E0BB235523B2FEE400A6980E /* TADarwCardCollectionViewLayoutAttributes.m in Sources */,
+				E0BB238923B307A600A6980E /* TADrawCardArrowView.m in Sources */,
+				E0BB236823B3078D00A6980E /* TATarotReadingCardView.m in Sources */,
+				E0BB23A123B3303300A6980E /* UIImage+Clip.m in Sources */,
+				E0BB234C23B20D6F00A6980E /* GPDrawCardViewController.m in Sources */,
+				E0BB238D23B30A6700A6980E /* UIView+LayoutMethods.m in Sources */,
+				E0BB235E23B3019000A6980E /* TATarotReadinDrawModeManger.m in Sources */,
+				E0BB238623B307A600A6980E /* TACardRippleView.m in Sources */,
+				E0BB238023B307A600A6980E /* TADrawCardView.m in Sources */,
+				E0BB239E23B32FC100A6980E /* UIView+AnimationExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E0F92B3423B1EB1600295EE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0F92B3523B1EB1600295EE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0F92B3923B1EB1700295EE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0F92B3A23B1EB1700295EE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0F92B3F23B1EB1700295EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0F92B4023B1EB1700295EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0F92B4223B1EB1700295EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF4CEE4E3D4FF3E961A6C535 /* Pods-LandlordsCard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LandlordsCard/PrefixHeader.pch;
+				INFOPLIST_FILE = LandlordsCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GP.LandlordsCard;
+				PRODUCT_NAME = "卡牌";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0F92B4323B1EB1700295EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDD6D2B733419CE81B42D668 /* Pods-LandlordsCard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LandlordsCard/PrefixHeader.pch;
+				INFOPLIST_FILE = LandlordsCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GP.LandlordsCard;
+				PRODUCT_NAME = "卡牌";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0F92B2623B1EB1600295EE5 /* Build configuration list for PBXProject "LandlordsCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0F92B3F23B1EB1700295EE5 /* Debug */,
+				E0F92B4023B1EB1700295EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0F92B4123B1EB1700295EE5 /* Build configuration list for PBXNativeTarget "LandlordsCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0F92B4223B1EB1700295EE5 /* Debug */,
+				E0F92B4323B1EB1700295EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0F92B2323B1EB1600295EE5 /* Project object */;
+}

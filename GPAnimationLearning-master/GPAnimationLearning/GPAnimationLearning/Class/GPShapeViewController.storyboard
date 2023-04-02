@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="YaX-zH-8cx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Shape View Controller-->
+        <scene sceneID="ba7-E4-tmJ">
+            <objects>
+                <viewController id="YaX-zH-8cx" customClass="GPShapeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dS4-ZL-qc2"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hkj-3A-5yq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aFe-Sh-hav">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-boxingring" translatesAutoresizingMaskIntoConstraints="NO" id="XyL-dx-9Cb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="匹配对手" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZwU-P9-3hj">
+                                <rect key="frame" x="126.5" y="28" width="122" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U5D-aN-oBL">
+                                <rect key="frame" x="127" y="574" width="122" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="重新匹配">
+                                    <color key="titleColor" red="1" green="0.87346515619999998" blue="0.41823352349999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="searchAgainBtnClick:" destination="YaX-zH-8cx" eventType="touchUpInside" id="E1y-dd-1bj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VS." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e15-cL-bdW">
+                                <rect key="frame" x="165.5" y="165.5" width="45.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6rj-K0-egx" customClass="GPAvatarView">
+                                <rect key="frame" x="265" y="133.5" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="iBP-Qk-ca1"/>
+                                    <constraint firstAttribute="width" constant="100" id="ixh-sL-SWb"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tFk-KL-Evq" customClass="GPAvatarView">
+                                <rect key="frame" x="10" y="133.5" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Zzm-Zr-DLy"/>
+                                    <constraint firstAttribute="width" constant="100" id="cnZ-vC-cNS"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XyL-dx-9Cb" firstAttribute="leading" secondItem="aFe-Sh-hav" secondAttribute="leading" id="1j5-XO-ssc"/>
+                            <constraint firstAttribute="trailing" secondItem="XyL-dx-9Cb" secondAttribute="trailing" id="3mQ-LP-eFE"/>
+                            <constraint firstItem="U5D-aN-oBL" firstAttribute="centerX" secondItem="XyL-dx-9Cb" secondAttribute="centerX" id="9p3-J9-dDz"/>
+                            <constraint firstItem="Hkj-3A-5yq" firstAttribute="top" secondItem="U5D-aN-oBL" secondAttribute="bottom" constant="45" id="EeF-H0-Kel"/>
+                            <constraint firstItem="e15-cL-bdW" firstAttribute="centerX" secondItem="aFe-Sh-hav" secondAttribute="centerX" id="GqZ-MK-p9Z"/>
+                            <constraint firstItem="e15-cL-bdW" firstAttribute="centerY" secondItem="aFe-Sh-hav" secondAttribute="centerY" constant="-150" id="LoY-bm-Erq"/>
+                            <constraint firstItem="XyL-dx-9Cb" firstAttribute="top" secondItem="aFe-Sh-hav" secondAttribute="top" id="Toc-XQ-EhW"/>
+                            <constraint firstItem="6rj-K0-egx" firstAttribute="centerY" secondItem="e15-cL-bdW" secondAttribute="centerY" id="UQK-jL-vUi"/>
+                            <constraint firstItem="ZwU-P9-3hj" firstAttribute="centerX" secondItem="XyL-dx-9Cb" secondAttribute="centerX" id="XQD-y4-3tz"/>
+                            <constraint firstItem="tFk-KL-Evq" firstAttribute="leading" secondItem="aFe-Sh-hav" secondAttribute="leading" constant="10" id="YEX-zs-SKD"/>
+                            <constraint firstItem="e15-cL-bdW" firstAttribute="centerY" secondItem="tFk-KL-Evq" secondAttribute="centerY" id="hhb-tX-wBc"/>
+                            <constraint firstItem="ZwU-P9-3hj" firstAttribute="top" secondItem="dS4-ZL-qc2" secondAttribute="bottom" constant="8" symbolic="YES" id="j37-oY-JoN"/>
+                            <constraint firstAttribute="trailing" secondItem="6rj-K0-egx" secondAttribute="trailing" constant="10" id="nPl-2T-uQD"/>
+                            <constraint firstItem="Hkj-3A-5yq" firstAttribute="top" secondItem="XyL-dx-9Cb" secondAttribute="bottom" id="z4O-oa-nUB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myAvatar" destination="6rj-K0-egx" id="xZx-FU-Ink"/>
+                        <outlet property="opponentAvatar" destination="tFk-KL-Evq" id="NxP-eg-MtZ"/>
+                        <outlet property="searchAgainBtn" destination="U5D-aN-oBL" id="tEk-wz-A3z"/>
+                        <outlet property="statusLabel" destination="ZwU-P9-3hj" id="ROw-YG-5Us"/>
+                        <outlet property="vsLabel" destination="e15-cL-bdW" id="tCx-IM-daA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jRL-aO-8Th" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1769" y="-877"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg-boxingring" width="320" height="568"/>
+    </resources>
+</document>

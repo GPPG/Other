@@ -1,0 +1,23 @@
+platform :ios, '11.0'
+
+target 'Camera' do
+  use_frameworks!
+  pod 'Moya', '~> 12.0'
+  pod 'InfoKit'
+  pod 'SnapKit'
+pod 'MLeaksFinder'
+
+  target 'CameraTests' do
+    inherit! :search_paths
+    pod 'Moya', '~> 12.0'
+    pod 'InfoKit'
+    pod 'SnapKit'
+pod 'MLeaksFinder'
+
+  end
+
+  target 'CameraUITests' do
+    inherit! :search_paths
+  end
+
+end

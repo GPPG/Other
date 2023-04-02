@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FCZ-5S-7q3">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Info View Controller-->
+        <scene sceneID="aRG-Fg-wf2">
+            <objects>
+                <viewController restorationIdentifier="InfoViewControllerID" storyboardIdentifier="InfoViewControllerID" id="FCZ-5S-7q3" customClass="InfoViewController" customModule="WX" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aaQ-eg-MAf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8IJ-5p-ehD">
+                                <rect key="frame" x="157" y="398" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="KvZ-og-lzf"/>
+                                    <constraint firstAttribute="height" constant="100" id="bgs-fG-6C0"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UuC-hb-b76">
+                                <rect key="frame" x="176" y="538" width="62" height="30"/>
+                                <state key="normal" title="替换头像"/>
+                                <connections>
+                                    <action selector="tapAction:" destination="FCZ-5S-7q3" eventType="touchUpInside" id="Ue2-dc-8kC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UuC-hb-b76" firstAttribute="centerX" secondItem="8IJ-5p-ehD" secondAttribute="centerX" id="Kd7-aT-TWW"/>
+                            <constraint firstItem="UuC-hb-b76" firstAttribute="top" secondItem="8IJ-5p-ehD" secondAttribute="bottom" constant="40" id="ckC-OS-kSz"/>
+                            <constraint firstItem="8IJ-5p-ehD" firstAttribute="centerY" secondItem="aaQ-eg-MAf" secondAttribute="centerY" id="hc8-iC-qYr"/>
+                            <constraint firstItem="8IJ-5p-ehD" firstAttribute="centerX" secondItem="aaQ-eg-MAf" secondAttribute="centerX" id="u0r-nH-T8g"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="n6n-eh-cz2"/>
+                    </view>
+                    <connections>
+                        <outlet property="iconImageView" destination="8IJ-5p-ehD" id="lXm-EF-bf2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="juX-n0-CHC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-538" y="-42"/>
+        </scene>
+    </scenes>
+</document>

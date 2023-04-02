@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>lutFilters</key>
+	<array>
+		<dict>
+			<key>filterName</key>
+			<string>Metal</string>
+			<key>imageName</key>
+			<string>filter (1).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail1.png</string>
+			<key>sortGroup</key>
+			<string>3</string>
+			<key>baseId</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Fade</string>
+			<key>imageName</key>
+			<string>filter (2).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail2.png</string>
+			<key>sortGroup</key>
+			<string>3</string>
+			<key>baseId</key>
+			<string>2</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Gold</string>
+			<key>imageName</key>
+			<string>filter (3).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail3.png</string>
+			<key>sortGroup</key>
+			<string>3</string>
+			<key>baseId</key>
+			<string>3</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Wind</string>
+			<key>imageName</key>
+			<string>filter (4).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail4.png</string>
+			<key>sortGroup</key>
+			<string>2</string>
+			<key>baseId</key>
+			<string>4</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Cherry</string>
+			<key>imageName</key>
+			<string>filter (5).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail5.png</string>
+			<key>sortGroup</key>
+			<string>1</string>
+			<key>baseId</key>
+			<string>5</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Fresh</string>
+			<key>imageName</key>
+			<string>filter (6).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail6.png</string>
+			<key>sortGroup</key>
+			<string>1</string>
+			<key>baseId</key>
+			<string>6</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Sunrise</string>
+			<key>imageName</key>
+			<string>filter (7).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail7.png</string>
+			<key>sortGroup</key>
+			<string>3</string>
+			<key>baseId</key>
+			<string>7</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Lotus</string>
+			<key>imageName</key>
+			<string>filter (8).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail8.png</string>
+			<key>sortGroup</key>
+			<string>1</string>
+			<key>baseId</key>
+			<string>8</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Mint</string>
+			<key>imageName</key>
+			<string>filter (9).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail9.png</string>
+			<key>sortGroup</key>
+			<string>2</string>
+			<key>baseId</key>
+			<string>9</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>White</string>
+			<key>imageName</key>
+			<string>filter (11).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail11.png</string>
+			<key>sortGroup</key>
+			<string>1</string>
+			<key>baseId</key>
+			<string>11</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Twilight</string>
+			<key>imageName</key>
+			<string>filter (12).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail12.png</string>
+			<key>sortGroup</key>
+			<string>1</string>
+			<key>baseId</key>
+			<string>12</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Nature</string>
+			<key>imageName</key>
+			<string>filter (14).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail14.png</string>
+			<key>sortGroup</key>
+			<string>1</string>
+			<key>baseId</key>
+			<string>14</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Candy</string>
+			<key>imageName</key>
+			<string>filter (15).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail15.png</string>
+			<key>sortGroup</key>
+			<string>1</string>
+			<key>baseId</key>
+			<string>15</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Grace</string>
+			<key>imageName</key>
+			<string>filter (16).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail16.png</string>
+			<key>sortGroup</key>
+			<string>1</string>
+			<key>baseId</key>
+			<string>16</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Flawless</string>
+			<key>imageName</key>
+			<string>filter (17).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail17.png</string>
+			<key>sortGroup</key>
+			<string>1</string>
+			<key>baseId</key>
+			<string>17</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Milk</string>
+			<key>imageName</key>
+			<string>filter (18).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail18.png</string>
+			<key>sortGroup</key>
+			<string>1</string>
+			<key>baseId</key>
+			<string>18</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Snow</string>
+			<key>imageName</key>
+			<string>filter (19).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail19.png</string>
+			<key>sortGroup</key>
+			<string>1</string>
+			<key>baseId</key>
+			<string>19</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Rose</string>
+			<key>imageName</key>
+			<string>filter (20).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail20.png</string>
+			<key>sortGroup</key>
+			<string>1</string>
+			<key>baseId</key>
+			<string>20</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Sundae</string>
+			<key>imageName</key>
+			<string>filter (22).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail22.png</string>
+			<key>sortGroup</key>
+			<string>1</string>
+			<key>baseId</key>
+			<string>22</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Time</string>
+			<key>imageName</key>
+			<string>filter (23).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail23.png</string>
+			<key>sortGroup</key>
+			<string>3</string>
+			<key>baseId</key>
+			<string>23</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Cloud</string>
+			<key>imageName</key>
+			<string>filter (24).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail24.png</string>
+			<key>sortGroup</key>
+			<string>1</string>
+			<key>baseId</key>
+			<string>24</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Moon</string>
+			<key>imageName</key>
+			<string>filter (25).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail25.png</string>
+			<key>sortGroup</key>
+			<string>2</string>
+			<key>baseId</key>
+			<string>25</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Violet</string>
+			<key>imageName</key>
+			<string>filter (26).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail26.png</string>
+			<key>sortGroup</key>
+			<string>1</string>
+			<key>baseId</key>
+			<string>26</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Autumn</string>
+			<key>imageName</key>
+			<string>filter (27).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail27.png</string>
+			<key>sortGroup</key>
+			<string>3</string>
+			<key>baseId</key>
+			<string>27</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Diamond</string>
+			<key>imageName</key>
+			<string>filter (28).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail28.png</string>
+			<key>sortGroup</key>
+			<string>2</string>
+			<key>baseId</key>
+			<string>28</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Forest</string>
+			<key>imageName</key>
+			<string>filter (29).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail29.png</string>
+			<key>sortGroup</key>
+			<string>2</string>
+			<key>baseId</key>
+			<string>29</string>
+		</dict>
+		<dict>
+			<key>filterName</key>
+			<string>Quiet</string>
+			<key>imageName</key>
+			<string>filter (30).jpg</string>
+			<key>iconName</key>
+			<string>lutThumbnail30.png</string>
+			<key>sortGroup</key>
+			<string>2</string>
+			<key>baseId</key>
+			<string>30</string>
+		</dict>
+	</array>
+</dict>
+</plist>

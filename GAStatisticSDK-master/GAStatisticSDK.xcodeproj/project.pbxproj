@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C205E9F2266BE4E00363026 /* GAStudentModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C205E9D2266BE4E00363026 /* GAStudentModel.h */; };
+		5C205EA02266BE4E00363026 /* GAStudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C205E9E2266BE4E00363026 /* GAStudentModel.m */; };
+		5C205EA32266BEB300363026 /* GASQLManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C205EA12266BEB300363026 /* GASQLManager.h */; };
+		5C205EA42266BEB300363026 /* GASQLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C205EA22266BEB300363026 /* GASQLManager.m */; };
+		5C205EA72266BF1400363026 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C205EA62266BF1400363026 /* libsqlite3.0.tbd */; };
+		5C205EA92266BF1B00363026 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C205EA82266BF1B00363026 /* libsqlite3.tbd */; };
+		5C205EAF2266F57800363026 /* GABasic19Mode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C205EAD2266F57800363026 /* GABasic19Mode.h */; };
+		5C205EB02266F57800363026 /* GABasic19Mode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C205EAE2266F57800363026 /* GABasic19Mode.m */; };
+		5C205EB32266F88900363026 /* GAGeneralModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C205EB12266F88900363026 /* GAGeneralModel.h */; };
+		5C205EB42266F88900363026 /* GAGeneralModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C205EB22266F88900363026 /* GAGeneralModel.m */; };
+		5C205EB72266FA2E00363026 /* GABasicDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C205EB52266FA2E00363026 /* GABasicDataModel.h */; };
+		5C205EB82266FA2E00363026 /* GABasicDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C205EB62266FA2E00363026 /* GABasicDataModel.m */; };
+		5C205EBD2267012000363026 /* GAPromotion45Mode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C205EBB2267012000363026 /* GAPromotion45Mode.h */; };
+		5C205EBE2267012000363026 /* GAPromotion45Mode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C205EBC2267012000363026 /* GAPromotion45Mode.m */; };
+		5C205ED82267079B00363026 /* GAFMDBTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C205ED62267079B00363026 /* GAFMDBTool.h */; };
+		5C205ED92267079B00363026 /* GAFMDBTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C205ED72267079B00363026 /* GAFMDBTool.m */; };
+		E01DACD22265A950005BF8DD /* GADeviceInfoTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E01DACD02265A950005BF8DD /* GADeviceInfoTool.h */; };
+		E01DACD32265A950005BF8DD /* GADeviceInfoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E01DACD12265A950005BF8DD /* GADeviceInfoTool.m */; };
+		E01DACD62265ADE0005BF8DD /* GAABMode.h in Headers */ = {isa = PBXBuildFile; fileRef = E01DACD42265ADE0005BF8DD /* GAABMode.h */; };
+		E01DACD72265ADE0005BF8DD /* GAABMode.m in Sources */ = {isa = PBXBuildFile; fileRef = E01DACD52265ADE0005BF8DD /* GAABMode.m */; };
+		E01DACDA2265AE43005BF8DD /* GAUserBehaviorMode.h in Headers */ = {isa = PBXBuildFile; fileRef = E01DACD82265AE43005BF8DD /* GAUserBehaviorMode.h */; };
+		E01DACDB2265AE43005BF8DD /* GAUserBehaviorMode.m in Sources */ = {isa = PBXBuildFile; fileRef = E01DACD92265AE43005BF8DD /* GAUserBehaviorMode.m */; };
+		E01DACDE2265AE4E005BF8DD /* GAPayMode.h in Headers */ = {isa = PBXBuildFile; fileRef = E01DACDC2265AE4E005BF8DD /* GAPayMode.h */; };
+		E01DACDF2265AE4E005BF8DD /* GAPayMode.m in Sources */ = {isa = PBXBuildFile; fileRef = E01DACDD2265AE4E005BF8DD /* GAPayMode.m */; };
+		E020E0B72264209B008C699F /* StatisticSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E020E0B52264209B008C699F /* StatisticSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E020E12722642F40008C699F /* GAClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E020E12222642F40008C699F /* GAClassInfo.h */; };
+		E020E12822642F40008C699F /* GAClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E020E12322642F40008C699F /* GAClassInfo.m */; };
+		E020E12922642F40008C699F /* NSObject+GAModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E020E12422642F40008C699F /* NSObject+GAModel.h */; };
+		E020E12A22642F40008C699F /* NSObject+GAModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E020E12522642F40008C699F /* NSObject+GAModel.m */; };
+		E020E12B22642F40008C699F /* GAModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E020E12622642F40008C699F /* GAModel.h */; };
+		E020E12E22643339008C699F /* GANetworkMeterManger.h in Headers */ = {isa = PBXBuildFile; fileRef = E020E12C22643339008C699F /* GANetworkMeterManger.h */; };
+		E020E12F22643339008C699F /* GANetworkMeterManger.m in Sources */ = {isa = PBXBuildFile; fileRef = E020E12D22643339008C699F /* GANetworkMeterManger.m */; };
+		E020E1332264334E008C699F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E020E1312264334E008C699F /* Reachability.m */; };
+		E020E1342264334E008C699F /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = E020E1322264334E008C699F /* Reachability.h */; };
+		E020E13A22643356008C699F /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = E020E13622643355008C699F /* SAMKeychainQuery.m */; };
+		E020E13B22643356008C699F /* SAMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = E020E13722643355008C699F /* SAMKeychain.h */; };
+		E020E13C22643356008C699F /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = E020E13822643355008C699F /* SAMKeychainQuery.h */; };
+		E020E13D22643356008C699F /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = E020E13922643355008C699F /* SAMKeychain.m */; };
+		E020E14A22645CB5008C699F /* GAStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = E020E14822645CB5008C699F /* GAStatistics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E020E14B22645CB5008C699F /* GAStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = E020E14922645CB5008C699F /* GAStatistics.m */; };
+		E020E14E22645CC8008C699F /* GAStatisticsUploadManger.h in Headers */ = {isa = PBXBuildFile; fileRef = E020E14C22645CC8008C699F /* GAStatisticsUploadManger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E020E14F22645CC8008C699F /* GAStatisticsUploadManger.m in Sources */ = {isa = PBXBuildFile; fileRef = E020E14D22645CC8008C699F /* GAStatisticsUploadManger.m */; };
+		E020E15222645ECC008C699F /* GAInitDataMode.h in Headers */ = {isa = PBXBuildFile; fileRef = E020E15022645ECC008C699F /* GAInitDataMode.h */; };
+		E020E15322645ECC008C699F /* GAInitDataMode.m in Sources */ = {isa = PBXBuildFile; fileRef = E020E15122645ECC008C699F /* GAInitDataMode.m */; };
+		E020E1562264640D008C699F /* GANetworkPostManger.h in Headers */ = {isa = PBXBuildFile; fileRef = E020E1542264640D008C699F /* GANetworkPostManger.h */; };
+		E020E1572264640D008C699F /* GANetworkPostManger.m in Sources */ = {isa = PBXBuildFile; fileRef = E020E1552264640D008C699F /* GANetworkPostManger.m */; };
+		E020E15A226464AA008C699F /* GANetworkPostTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E020E158226464AA008C699F /* GANetworkPostTool.h */; };
+		E020E15B226464AA008C699F /* GANetworkPostTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E020E159226464AA008C699F /* GANetworkPostTool.m */; };
+		E020E15E226466DC008C699F /* GATimeTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E020E15C226466DC008C699F /* GATimeTool.h */; };
+		E020E15F226466DC008C699F /* GATimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E020E15D226466DC008C699F /* GATimeTool.m */; };
+		E020E16222646876008C699F /* GAStringTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E020E16022646876008C699F /* GAStringTool.m */; };
+		E020E16322646876008C699F /* GAStringTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E020E16122646876008C699F /* GAStringTool.h */; };
+		E020E16D226477D1008C699F /* GAInputDataManger.h in Headers */ = {isa = PBXBuildFile; fileRef = E020E16B226477D1008C699F /* GAInputDataManger.h */; };
+		E020E16E226477D1008C699F /* GAInputDataManger.m in Sources */ = {isa = PBXBuildFile; fileRef = E020E16C226477D1008C699F /* GAInputDataManger.m */; };
+		E0296C532267175D00F4CFDE /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = E0296C482267175D00F4CFDE /* FMDatabase.h */; };
+		E0296C542267175D00F4CFDE /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E0296C492267175D00F4CFDE /* FMDatabaseQueue.m */; };
+		E0296C552267175D00F4CFDE /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = E0296C4A2267175D00F4CFDE /* FMResultSet.h */; };
+		E0296C562267175D00F4CFDE /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = E0296C4B2267175D00F4CFDE /* FMDatabasePool.h */; };
+		E0296C572267175D00F4CFDE /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E0296C4C2267175D00F4CFDE /* FMDatabaseAdditions.m */; };
+		E0296C582267175D00F4CFDE /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = E0296C4D2267175D00F4CFDE /* FMDatabase.m */; };
+		E0296C592267175D00F4CFDE /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = E0296C4E2267175D00F4CFDE /* FMDatabaseQueue.h */; };
+		E0296C5A2267175D00F4CFDE /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = E0296C4F2267175D00F4CFDE /* FMDB.h */; };
+		E0296C5B2267175D00F4CFDE /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E0296C502267175D00F4CFDE /* FMDatabaseAdditions.h */; };
+		E0296C5C2267175D00F4CFDE /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = E0296C512267175D00F4CFDE /* FMDatabasePool.m */; };
+		E0296C5D2267175D00F4CFDE /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E0296C522267175D00F4CFDE /* FMResultSet.m */; };
+		E0296C6522671A0400F4CFDE /* GAAbtestManger.h in Headers */ = {isa = PBXBuildFile; fileRef = E0296C6322671A0400F4CFDE /* GAAbtestManger.h */; };
+		E0296C6622671A0400F4CFDE /* GAAbtestManger.m in Sources */ = {isa = PBXBuildFile; fileRef = E0296C6422671A0400F4CFDE /* GAAbtestManger.m */; };
+		E0296C6A22671E5E00F4CFDE /* NSObject+Attribute.h in Headers */ = {isa = PBXBuildFile; fileRef = E0296C6822671E5E00F4CFDE /* NSObject+Attribute.h */; };
+		E0296C6B22671E5E00F4CFDE /* NSObject+Attribute.m in Sources */ = {isa = PBXBuildFile; fileRef = E0296C6922671E5E00F4CFDE /* NSObject+Attribute.m */; };
+		E0296C6F22682A6B00F4CFDE /* GABsic19DataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E0296C6D22682A6800F4CFDE /* GABsic19DataTool.m */; };
+		E0296C7022682A6B00F4CFDE /* GABsic19DataTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E0296C6E22682A6800F4CFDE /* GABsic19DataTool.h */; };
+		E0296C7322686D7A00F4CFDE /* GAUserBehaviorManger.h in Headers */ = {isa = PBXBuildFile; fileRef = E0296C7122686D7A00F4CFDE /* GAUserBehaviorManger.h */; };
+		E0296C7422686D7A00F4CFDE /* GAUserBehaviorManger.m in Sources */ = {isa = PBXBuildFile; fileRef = E0296C7222686D7A00F4CFDE /* GAUserBehaviorManger.m */; };
+		E0296C79226871D700F4CFDE /* GACurrentTimeUploadTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E0296C77226871D700F4CFDE /* GACurrentTimeUploadTool.h */; };
+		E0296C7A226871D700F4CFDE /* GACurrentTimeUploadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E0296C78226871D700F4CFDE /* GACurrentTimeUploadTool.m */; };
+		E0296C9922699C3A00F4CFDE /* GAPayManger.h in Headers */ = {isa = PBXBuildFile; fileRef = E0296C9722699C3A00F4CFDE /* GAPayManger.h */; };
+		E0296C9A22699C3A00F4CFDE /* GAPayManger.m in Sources */ = {isa = PBXBuildFile; fileRef = E0296C9822699C3A00F4CFDE /* GAPayManger.m */; };
+		E0DCF0962265A71E005CBABF /* GASetGeneralModeTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E0DCF0942265A71E005CBABF /* GASetGeneralModeTool.h */; };
+		E0DCF0972265A71E005CBABF /* GASetGeneralModeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DCF0952265A71E005CBABF /* GASetGeneralModeTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C205E9D2266BE4E00363026 /* GAStudentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAStudentModel.h; sourceTree = "<group>"; };
+		5C205E9E2266BE4E00363026 /* GAStudentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAStudentModel.m; sourceTree = "<group>"; };
+		5C205EA12266BEB300363026 /* GASQLManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GASQLManager.h; sourceTree = "<group>"; };
+		5C205EA22266BEB300363026 /* GASQLManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GASQLManager.m; sourceTree = "<group>"; };
+		5C205EA62266BF1400363026 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		5C205EA82266BF1B00363026 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		5C205EAD2266F57800363026 /* GABasic19Mode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GABasic19Mode.h; sourceTree = "<group>"; };
+		5C205EAE2266F57800363026 /* GABasic19Mode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GABasic19Mode.m; sourceTree = "<group>"; };
+		5C205EB12266F88900363026 /* GAGeneralModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAGeneralModel.h; sourceTree = "<group>"; };
+		5C205EB22266F88900363026 /* GAGeneralModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAGeneralModel.m; sourceTree = "<group>"; };
+		5C205EB52266FA2E00363026 /* GABasicDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GABasicDataModel.h; sourceTree = "<group>"; };
+		5C205EB62266FA2E00363026 /* GABasicDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GABasicDataModel.m; sourceTree = "<group>"; };
+		5C205EBB2267012000363026 /* GAPromotion45Mode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAPromotion45Mode.h; sourceTree = "<group>"; };
+		5C205EBC2267012000363026 /* GAPromotion45Mode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAPromotion45Mode.m; sourceTree = "<group>"; };
+		5C205ED62267079B00363026 /* GAFMDBTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAFMDBTool.h; sourceTree = "<group>"; };
+		5C205ED72267079B00363026 /* GAFMDBTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAFMDBTool.m; sourceTree = "<group>"; };
+		E01DACD02265A950005BF8DD /* GADeviceInfoTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADeviceInfoTool.h; sourceTree = "<group>"; };
+		E01DACD12265A950005BF8DD /* GADeviceInfoTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADeviceInfoTool.m; sourceTree = "<group>"; };
+		E01DACD42265ADE0005BF8DD /* GAABMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAABMode.h; sourceTree = "<group>"; };
+		E01DACD52265ADE0005BF8DD /* GAABMode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAABMode.m; sourceTree = "<group>"; };
+		E01DACD82265AE43005BF8DD /* GAUserBehaviorMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAUserBehaviorMode.h; sourceTree = "<group>"; };
+		E01DACD92265AE43005BF8DD /* GAUserBehaviorMode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAUserBehaviorMode.m; sourceTree = "<group>"; };
+		E01DACDC2265AE4E005BF8DD /* GAPayMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAPayMode.h; sourceTree = "<group>"; };
+		E01DACDD2265AE4E005BF8DD /* GAPayMode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAPayMode.m; sourceTree = "<group>"; };
+		E020E0B22264209B008C699F /* GAStatisticSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GAStatisticSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E020E0B52264209B008C699F /* StatisticSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatisticSDK.h; sourceTree = "<group>"; };
+		E020E0B62264209B008C699F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E020E12022642C55008C699F /* GAStatisticSDK.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAStatisticSDK.pch; sourceTree = "<group>"; };
+		E020E12222642F40008C699F /* GAClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAClassInfo.h; sourceTree = "<group>"; };
+		E020E12322642F40008C699F /* GAClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAClassInfo.m; sourceTree = "<group>"; };
+		E020E12422642F40008C699F /* NSObject+GAModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GAModel.h"; sourceTree = "<group>"; };
+		E020E12522642F40008C699F /* NSObject+GAModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GAModel.m"; sourceTree = "<group>"; };
+		E020E12622642F40008C699F /* GAModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAModel.h; sourceTree = "<group>"; };
+		E020E12C22643339008C699F /* GANetworkMeterManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GANetworkMeterManger.h; sourceTree = "<group>"; };
+		E020E12D22643339008C699F /* GANetworkMeterManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GANetworkMeterManger.m; sourceTree = "<group>"; };
+		E020E1312264334E008C699F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		E020E1322264334E008C699F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		E020E13622643355008C699F /* SAMKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychainQuery.m; sourceTree = "<group>"; };
+		E020E13722643355008C699F /* SAMKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychain.h; sourceTree = "<group>"; };
+		E020E13822643355008C699F /* SAMKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychainQuery.h; sourceTree = "<group>"; };
+		E020E13922643355008C699F /* SAMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychain.m; sourceTree = "<group>"; };
+		E020E14822645CB5008C699F /* GAStatistics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAStatistics.h; sourceTree = "<group>"; };
+		E020E14922645CB5008C699F /* GAStatistics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAStatistics.m; sourceTree = "<group>"; };
+		E020E14C22645CC8008C699F /* GAStatisticsUploadManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAStatisticsUploadManger.h; sourceTree = "<group>"; };
+		E020E14D22645CC8008C699F /* GAStatisticsUploadManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAStatisticsUploadManger.m; sourceTree = "<group>"; };
+		E020E15022645ECC008C699F /* GAInitDataMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAInitDataMode.h; sourceTree = "<group>"; };
+		E020E15122645ECC008C699F /* GAInitDataMode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAInitDataMode.m; sourceTree = "<group>"; };
+		E020E1542264640D008C699F /* GANetworkPostManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GANetworkPostManger.h; sourceTree = "<group>"; };
+		E020E1552264640D008C699F /* GANetworkPostManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GANetworkPostManger.m; sourceTree = "<group>"; };
+		E020E158226464AA008C699F /* GANetworkPostTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GANetworkPostTool.h; sourceTree = "<group>"; };
+		E020E159226464AA008C699F /* GANetworkPostTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GANetworkPostTool.m; sourceTree = "<group>"; };
+		E020E15C226466DC008C699F /* GATimeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GATimeTool.h; sourceTree = "<group>"; };
+		E020E15D226466DC008C699F /* GATimeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GATimeTool.m; sourceTree = "<group>"; };
+		E020E16022646876008C699F /* GAStringTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAStringTool.m; sourceTree = "<group>"; };
+		E020E16122646876008C699F /* GAStringTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAStringTool.h; sourceTree = "<group>"; };
+		E020E16B226477D1008C699F /* GAInputDataManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAInputDataManger.h; sourceTree = "<group>"; };
+		E020E16C226477D1008C699F /* GAInputDataManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAInputDataManger.m; sourceTree = "<group>"; };
+		E0296C482267175D00F4CFDE /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		E0296C492267175D00F4CFDE /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		E0296C4A2267175D00F4CFDE /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		E0296C4B2267175D00F4CFDE /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		E0296C4C2267175D00F4CFDE /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		E0296C4D2267175D00F4CFDE /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		E0296C4E2267175D00F4CFDE /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		E0296C4F2267175D00F4CFDE /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		E0296C502267175D00F4CFDE /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		E0296C512267175D00F4CFDE /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		E0296C522267175D00F4CFDE /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		E0296C6322671A0400F4CFDE /* GAAbtestManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAAbtestManger.h; sourceTree = "<group>"; };
+		E0296C6422671A0400F4CFDE /* GAAbtestManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAAbtestManger.m; sourceTree = "<group>"; };
+		E0296C6822671E5E00F4CFDE /* NSObject+Attribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Attribute.h"; sourceTree = "<group>"; };
+		E0296C6922671E5E00F4CFDE /* NSObject+Attribute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Attribute.m"; sourceTree = "<group>"; };
+		E0296C6D22682A6800F4CFDE /* GABsic19DataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GABsic19DataTool.m; sourceTree = "<group>"; };
+		E0296C6E22682A6800F4CFDE /* GABsic19DataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GABsic19DataTool.h; sourceTree = "<group>"; };
+		E0296C7122686D7A00F4CFDE /* GAUserBehaviorManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAUserBehaviorManger.h; sourceTree = "<group>"; };
+		E0296C7222686D7A00F4CFDE /* GAUserBehaviorManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAUserBehaviorManger.m; sourceTree = "<group>"; };
+		E0296C7622686F2B00F4CFDE /* GAUploadProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAUploadProtocol.h; sourceTree = "<group>"; };
+		E0296C77226871D700F4CFDE /* GACurrentTimeUploadTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GACurrentTimeUploadTool.h; sourceTree = "<group>"; };
+		E0296C78226871D700F4CFDE /* GACurrentTimeUploadTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GACurrentTimeUploadTool.m; sourceTree = "<group>"; };
+		E0296C9722699C3A00F4CFDE /* GAPayManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAPayManger.h; sourceTree = "<group>"; };
+		E0296C9822699C3A00F4CFDE /* GAPayManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAPayManger.m; sourceTree = "<group>"; };
+		E0DCF0942265A71E005CBABF /* GASetGeneralModeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GASetGeneralModeTool.h; sourceTree = "<group>"; };
+		E0DCF0952265A71E005CBABF /* GASetGeneralModeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GASetGeneralModeTool.m; sourceTree = "<group>"; };
+		E0F6574D2269BD0600DC8EEA /* GAUploadModeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAUploadModeProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E020E0AF2264209B008C699F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C205EA92266BF1B00363026 /* libsqlite3.tbd in Frameworks */,
+				5C205EA72266BF1400363026 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C205E9C2266BE3C00363026 /* sqlite */ = {
+			isa = PBXGroup;
+			children = (
+				5C205E9D2266BE4E00363026 /* GAStudentModel.h */,
+				5C205E9E2266BE4E00363026 /* GAStudentModel.m */,
+				5C205EA12266BEB300363026 /* GASQLManager.h */,
+				5C205EA22266BEB300363026 /* GASQLManager.m */,
+			);
+			path = sqlite;
+			sourceTree = "<group>";
+		};
+		5C205EA52266BF1400363026 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C205EA82266BF1B00363026 /* libsqlite3.tbd */,
+				5C205EA62266BF1400363026 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C205EAA2266DA2000363026 /* 19(Basic) */ = {
+			isa = PBXGroup;
+			children = (
+				E0296C6C22682A6800F4CFDE /* tool */,
+				5C205EAC2266F53600363026 /* mode */,
+			);
+			path = "19(Basic)";
+			sourceTree = "<group>";
+		};
+		5C205EAB2266DAB900363026 /* 45(Promotion) */ = {
+			isa = PBXGroup;
+			children = (
+				5C205EBA226700FB00363026 /* mode */,
+			);
+			path = "45(Promotion)";
+			sourceTree = "<group>";
+		};
+		5C205EAC2266F53600363026 /* mode */ = {
+			isa = PBXGroup;
+			children = (
+				5C205EAD2266F57800363026 /* GABasic19Mode.h */,
+				5C205EAE2266F57800363026 /* GABasic19Mode.m */,
+			);
+			path = mode;
+			sourceTree = "<group>";
+		};
+		5C205EBA226700FB00363026 /* mode */ = {
+			isa = PBXGroup;
+			children = (
+				5C205EBB2267012000363026 /* GAPromotion45Mode.h */,
+				5C205EBC2267012000363026 /* GAPromotion45Mode.m */,
+			);
+			path = mode;
+			sourceTree = "<group>";
+		};
+		E020E0A82264209B008C699F = {
+			isa = PBXGroup;
+			children = (
+				E020E0B42264209B008C699F /* GAStatisticSDK */,
+				E020E0B32264209B008C699F /* Products */,
+				5C205EA52266BF1400363026 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E020E0B32264209B008C699F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E020E0B22264209B008C699F /* GAStatisticSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E020E0B42264209B008C699F /* GAStatisticSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E020E11A22642871008C699F /* Model */,
+				E020E173226479BB008C699F /* Manger */,
+				E020E11922642713008C699F /* Tool */,
+				E020E1172264249C008C699F /* Class */,
+				E020E11622642383008C699F /* NetWork */,
+				E020E118226424AD008C699F /* Library */,
+				E0296C6722671E3B00F4CFDE /* Category */,
+				E020E0B52264209B008C699F /* StatisticSDK.h */,
+				E020E12022642C55008C699F /* GAStatisticSDK.pch */,
+				E020E0B62264209B008C699F /* Info.plist */,
+			);
+			path = GAStatisticSDK;
+			sourceTree = "<group>";
+		};
+		E020E11622642383008C699F /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				E020E158226464AA008C699F /* GANetworkPostTool.h */,
+				E020E159226464AA008C699F /* GANetworkPostTool.m */,
+				E020E1542264640D008C699F /* GANetworkPostManger.h */,
+				E020E1552264640D008C699F /* GANetworkPostManger.m */,
+				E020E12C22643339008C699F /* GANetworkMeterManger.h */,
+				E020E12D22643339008C699F /* GANetworkMeterManger.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		E020E1172264249C008C699F /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E0296C7522686F0000F4CFDE /* UploadProtocol */,
+				5C205EAB2266DAB900363026 /* 45(Promotion) */,
+				5C205EAA2266DA2000363026 /* 19(Basic) */,
+				E020E16622646A66008C699F /* 59(Pay) */,
+				E020E16522646A44008C699F /* 101(User behavior) */,
+				E020E164226469FB008C699F /* 104(Ab ) */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		E020E118226424AD008C699F /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				E0296C472267175D00F4CFDE /* FMDB */,
+				5C205E9C2266BE3C00363026 /* sqlite */,
+				E020E13522643355008C699F /* SAMKeychain */,
+				E020E1302264334E008C699F /* Reachability */,
+				E020E12122642EF7008C699F /* GAModel */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		E020E11922642713008C699F /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E0DCF0942265A71E005CBABF /* GASetGeneralModeTool.h */,
+				E0DCF0952265A71E005CBABF /* GASetGeneralModeTool.m */,
+				E020E15C226466DC008C699F /* GATimeTool.h */,
+				E020E15D226466DC008C699F /* GATimeTool.m */,
+				E020E16122646876008C699F /* GAStringTool.h */,
+				E020E16022646876008C699F /* GAStringTool.m */,
+				E01DACD02265A950005BF8DD /* GADeviceInfoTool.h */,
+				E01DACD12265A950005BF8DD /* GADeviceInfoTool.m */,
+				5C205ED62267079B00363026 /* GAFMDBTool.h */,
+				5C205ED72267079B00363026 /* GAFMDBTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		E020E11A22642871008C699F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E020E15022645ECC008C699F /* GAInitDataMode.h */,
+				E020E15122645ECC008C699F /* GAInitDataMode.m */,
+				5C205EB12266F88900363026 /* GAGeneralModel.h */,
+				5C205EB22266F88900363026 /* GAGeneralModel.m */,
+				5C205EB52266FA2E00363026 /* GABasicDataModel.h */,
+				5C205EB62266FA2E00363026 /* GABasicDataModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E020E12122642EF7008C699F /* GAModel */ = {
+			isa = PBXGroup;
+			children = (
+				E020E12422642F40008C699F /* NSObject+GAModel.h */,
+				E020E12522642F40008C699F /* NSObject+GAModel.m */,
+				E020E12222642F40008C699F /* GAClassInfo.h */,
+				E020E12322642F40008C699F /* GAClassInfo.m */,
+				E020E12622642F40008C699F /* GAModel.h */,
+			);
+			path = GAModel;
+			sourceTree = "<group>";
+		};
+		E020E1302264334E008C699F /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				E020E1312264334E008C699F /* Reachability.m */,
+				E020E1322264334E008C699F /* Reachability.h */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		E020E13522643355008C699F /* SAMKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				E020E13622643355008C699F /* SAMKeychainQuery.m */,
+				E020E13722643355008C699F /* SAMKeychain.h */,
+				E020E13822643355008C699F /* SAMKeychainQuery.h */,
+				E020E13922643355008C699F /* SAMKeychain.m */,
+			);
+			path = SAMKeychain;
+			sourceTree = "<group>";
+		};
+		E020E164226469FB008C699F /* 104(Ab ) */ = {
+			isa = PBXGroup;
+			children = (
+				E0296C6322671A0400F4CFDE /* GAAbtestManger.h */,
+				E0296C6422671A0400F4CFDE /* GAAbtestManger.m */,
+				E020E16922646EB1008C699F /* Mode */,
+			);
+			path = "104(Ab )";
+			sourceTree = "<group>";
+		};
+		E020E16522646A44008C699F /* 101(User behavior) */ = {
+			isa = PBXGroup;
+			children = (
+				E0296C7122686D7A00F4CFDE /* GAUserBehaviorManger.h */,
+				E0296C7222686D7A00F4CFDE /* GAUserBehaviorManger.m */,
+				E020E1702264799A008C699F /* Mode */,
+			);
+			path = "101(User behavior)";
+			sourceTree = "<group>";
+		};
+		E020E16622646A66008C699F /* 59(Pay) */ = {
+			isa = PBXGroup;
+			children = (
+				E0296C9722699C3A00F4CFDE /* GAPayManger.h */,
+				E0296C9822699C3A00F4CFDE /* GAPayManger.m */,
+				E020E171226479A0008C699F /* Mode */,
+			);
+			path = "59(Pay)";
+			sourceTree = "<group>";
+		};
+		E020E16922646EB1008C699F /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+				E01DACD42265ADE0005BF8DD /* GAABMode.h */,
+				E01DACD52265ADE0005BF8DD /* GAABMode.m */,
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		E020E1702264799A008C699F /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+				E01DACD82265AE43005BF8DD /* GAUserBehaviorMode.h */,
+				E01DACD92265AE43005BF8DD /* GAUserBehaviorMode.m */,
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		E020E171226479A0008C699F /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+				E01DACDC2265AE4E005BF8DD /* GAPayMode.h */,
+				E01DACDD2265AE4E005BF8DD /* GAPayMode.m */,
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		E020E173226479BB008C699F /* Manger */ = {
+			isa = PBXGroup;
+			children = (
+				E020E14822645CB5008C699F /* GAStatistics.h */,
+				E020E14922645CB5008C699F /* GAStatistics.m */,
+				E020E16B226477D1008C699F /* GAInputDataManger.h */,
+				E020E16C226477D1008C699F /* GAInputDataManger.m */,
+				E020E14C22645CC8008C699F /* GAStatisticsUploadManger.h */,
+				E020E14D22645CC8008C699F /* GAStatisticsUploadManger.m */,
+			);
+			path = Manger;
+			sourceTree = "<group>";
+		};
+		E0296C472267175D00F4CFDE /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				E0296C482267175D00F4CFDE /* FMDatabase.h */,
+				E0296C492267175D00F4CFDE /* FMDatabaseQueue.m */,
+				E0296C4A2267175D00F4CFDE /* FMResultSet.h */,
+				E0296C4B2267175D00F4CFDE /* FMDatabasePool.h */,
+				E0296C4C2267175D00F4CFDE /* FMDatabaseAdditions.m */,
+				E0296C4D2267175D00F4CFDE /* FMDatabase.m */,
+				E0296C4E2267175D00F4CFDE /* FMDatabaseQueue.h */,
+				E0296C4F2267175D00F4CFDE /* FMDB.h */,
+				E0296C502267175D00F4CFDE /* FMDatabaseAdditions.h */,
+				E0296C512267175D00F4CFDE /* FMDatabasePool.m */,
+				E0296C522267175D00F4CFDE /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		E0296C6722671E3B00F4CFDE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E0296C6822671E5E00F4CFDE /* NSObject+Attribute.h */,
+				E0296C6922671E5E00F4CFDE /* NSObject+Attribute.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E0296C6C22682A6800F4CFDE /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				E0296C6D22682A6800F4CFDE /* GABsic19DataTool.m */,
+				E0296C6E22682A6800F4CFDE /* GABsic19DataTool.h */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		E0296C7522686F0000F4CFDE /* UploadProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				E0296C7622686F2B00F4CFDE /* GAUploadProtocol.h */,
+				E0F6574D2269BD0600DC8EEA /* GAUploadModeProtocol.h */,
+				E0296C77226871D700F4CFDE /* GACurrentTimeUploadTool.h */,
+				E0296C78226871D700F4CFDE /* GACurrentTimeUploadTool.m */,
+			);
+			path = UploadProtocol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E020E0AD2264209B008C699F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E020E0B72264209B008C699F /* StatisticSDK.h in Headers */,
+				E020E14A22645CB5008C699F /* GAStatistics.h in Headers */,
+				5C205EA32266BEB300363026 /* GASQLManager.h in Headers */,
+				5C205EB72266FA2E00363026 /* GABasicDataModel.h in Headers */,
+				E020E14E22645CC8008C699F /* GAStatisticsUploadManger.h in Headers */,
+				E020E1562264640D008C699F /* GANetworkPostManger.h in Headers */,
+				E0296C6522671A0400F4CFDE /* GAAbtestManger.h in Headers */,
+				E0296C5A2267175D00F4CFDE /* FMDB.h in Headers */,
+				E020E15E226466DC008C699F /* GATimeTool.h in Headers */,
+				E01DACD22265A950005BF8DD /* GADeviceInfoTool.h in Headers */,
+				E020E12722642F40008C699F /* GAClassInfo.h in Headers */,
+				E0296C552267175D00F4CFDE /* FMResultSet.h in Headers */,
+				E0DCF0962265A71E005CBABF /* GASetGeneralModeTool.h in Headers */,
+				5C205EB32266F88900363026 /* GAGeneralModel.h in Headers */,
+				E020E12B22642F40008C699F /* GAModel.h in Headers */,
+				E020E16D226477D1008C699F /* GAInputDataManger.h in Headers */,
+				E01DACDE2265AE4E005BF8DD /* GAPayMode.h in Headers */,
+				E020E15222645ECC008C699F /* GAInitDataMode.h in Headers */,
+				E020E13C22643356008C699F /* SAMKeychainQuery.h in Headers */,
+				E020E15A226464AA008C699F /* GANetworkPostTool.h in Headers */,
+				E020E1342264334E008C699F /* Reachability.h in Headers */,
+				E0296C7322686D7A00F4CFDE /* GAUserBehaviorManger.h in Headers */,
+				E020E16322646876008C699F /* GAStringTool.h in Headers */,
+				E0296C79226871D700F4CFDE /* GACurrentTimeUploadTool.h in Headers */,
+				E0296C7022682A6B00F4CFDE /* GABsic19DataTool.h in Headers */,
+				E0296C592267175D00F4CFDE /* FMDatabaseQueue.h in Headers */,
+				5C205E9F2266BE4E00363026 /* GAStudentModel.h in Headers */,
+				5C205EBD2267012000363026 /* GAPromotion45Mode.h in Headers */,
+				E0296C6A22671E5E00F4CFDE /* NSObject+Attribute.h in Headers */,
+				E01DACDA2265AE43005BF8DD /* GAUserBehaviorMode.h in Headers */,
+				E020E13B22643356008C699F /* SAMKeychain.h in Headers */,
+				E0296C9922699C3A00F4CFDE /* GAPayManger.h in Headers */,
+				E0296C5B2267175D00F4CFDE /* FMDatabaseAdditions.h in Headers */,
+				E020E12E22643339008C699F /* GANetworkMeterManger.h in Headers */,
+				E01DACD62265ADE0005BF8DD /* GAABMode.h in Headers */,
+				5C205EAF2266F57800363026 /* GABasic19Mode.h in Headers */,
+				E0296C532267175D00F4CFDE /* FMDatabase.h in Headers */,
+				E020E12922642F40008C699F /* NSObject+GAModel.h in Headers */,
+				5C205ED82267079B00363026 /* GAFMDBTool.h in Headers */,
+				E0296C562267175D00F4CFDE /* FMDatabasePool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E020E0B12264209B008C699F /* GAStatisticSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E020E0BA2264209B008C699F /* Build configuration list for PBXNativeTarget "GAStatisticSDK" */;
+			buildPhases = (
+				E020E0AD2264209B008C699F /* Headers */,
+				E020E0AE2264209B008C699F /* Sources */,
+				E020E0AF2264209B008C699F /* Frameworks */,
+				E020E0B02264209B008C699F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GAStatisticSDK;
+			productName = GAStatisticSDK;
+			productReference = E020E0B22264209B008C699F /* GAStatisticSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E020E0A92264209B008C699F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GA;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "郭鹏";
+				TargetAttributes = {
+					E020E0B12264209B008C699F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = E020E0AC2264209B008C699F /* Build configuration list for PBXProject "GAStatisticSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E020E0A82264209B008C699F;
+			productRefGroup = E020E0B32264209B008C699F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E020E0B12264209B008C699F /* GAStatisticSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E020E0B02264209B008C699F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E020E0AE2264209B008C699F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C205EA42266BEB300363026 /* GASQLManager.m in Sources */,
+				E020E12F22643339008C699F /* GANetworkMeterManger.m in Sources */,
+				E020E15322645ECC008C699F /* GAInitDataMode.m in Sources */,
+				5C205EB02266F57800363026 /* GABasic19Mode.m in Sources */,
+				E020E13D22643356008C699F /* SAMKeychain.m in Sources */,
+				5C205EBE2267012000363026 /* GAPromotion45Mode.m in Sources */,
+				E020E12822642F40008C699F /* GAClassInfo.m in Sources */,
+				E0296C5C2267175D00F4CFDE /* FMDatabasePool.m in Sources */,
+				E020E15F226466DC008C699F /* GATimeTool.m in Sources */,
+				E0296C582267175D00F4CFDE /* FMDatabase.m in Sources */,
+				E0296C9A22699C3A00F4CFDE /* GAPayManger.m in Sources */,
+				E020E14F22645CC8008C699F /* GAStatisticsUploadManger.m in Sources */,
+				E0296C5D2267175D00F4CFDE /* FMResultSet.m in Sources */,
+				E020E13A22643356008C699F /* SAMKeychainQuery.m in Sources */,
+				5C205EB42266F88900363026 /* GAGeneralModel.m in Sources */,
+				5C205EB82266FA2E00363026 /* GABasicDataModel.m in Sources */,
+				5C205EA02266BE4E00363026 /* GAStudentModel.m in Sources */,
+				E0296C6622671A0400F4CFDE /* GAAbtestManger.m in Sources */,
+				E0296C7A226871D700F4CFDE /* GACurrentTimeUploadTool.m in Sources */,
+				E020E15B226464AA008C699F /* GANetworkPostTool.m in Sources */,
+				E020E16E226477D1008C699F /* GAInputDataManger.m in Sources */,
+				E020E1572264640D008C699F /* GANetworkPostManger.m in Sources */,
+				E0296C6F22682A6B00F4CFDE /* GABsic19DataTool.m in Sources */,
+				E020E1332264334E008C699F /* Reachability.m in Sources */,
+				E01DACDB2265AE43005BF8DD /* GAUserBehaviorMode.m in Sources */,
+				5C205ED92267079B00363026 /* GAFMDBTool.m in Sources */,
+				E0296C572267175D00F4CFDE /* FMDatabaseAdditions.m in Sources */,
+				E020E16222646876008C699F /* GAStringTool.m in Sources */,
+				E01DACD32265A950005BF8DD /* GADeviceInfoTool.m in Sources */,
+				E020E14B22645CB5008C699F /* GAStatistics.m in Sources */,
+				E01DACD72265ADE0005BF8DD /* GAABMode.m in Sources */,
+				E020E12A22642F40008C699F /* NSObject+GAModel.m in Sources */,
+				E0DCF0972265A71E005CBABF /* GASetGeneralModeTool.m in Sources */,
+				E0296C7422686D7A00F4CFDE /* GAUserBehaviorManger.m in Sources */,
+				E01DACDF2265AE4E005BF8DD /* GAPayMode.m in Sources */,
+				E0296C542267175D00F4CFDE /* FMDatabaseQueue.m in Sources */,
+				E0296C6B22671E5E00F4CFDE /* NSObject+Attribute.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E020E0B82264209B008C699F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E020E0B92264209B008C699F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E020E0BB2264209B008C699F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GAStatisticSDK/GAStatisticSDK.pch;
+				INFOPLIST_FILE = GAStatisticSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TA.GAStatisticSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E020E0BC2264209B008C699F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GAStatisticSDK/GAStatisticSDK.pch;
+				INFOPLIST_FILE = GAStatisticSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TA.GAStatisticSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E020E0AC2264209B008C699F /* Build configuration list for PBXProject "GAStatisticSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E020E0B82264209B008C699F /* Debug */,
+				E020E0B92264209B008C699F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E020E0BA2264209B008C699F /* Build configuration list for PBXNativeTarget "GAStatisticSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E020E0BB2264209B008C699F /* Debug */,
+				E020E0BC2264209B008C699F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E020E0A92264209B008C699F /* Project object */;
+}
